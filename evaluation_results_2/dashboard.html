@@ -1,0 +1,212 @@
+
+        <html>
+        <head>
+            <title>RAG Evaluation Results - 20250430_201025</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .container { max-width: 1200px; margin: 0 auto; }
+                table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+                th { background-color: #f2f2f2; }
+                .success { background-color: #d4edda; }
+                .failure { background-color: #f8d7da; }
+                img { max-width: 100%; height: auto; margin: 20px 0; }
+                .summary { background-color: #f8f9fa; padding: 20px; border-radius: 5px; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>RAG Evaluation Results</h1>
+                <p>Evaluation completed on: 2025-04-30 23:00:02</p>
+
+                <div class="summary">
+                    <h2>Summary Statistics</h2>
+                    <ul>
+        <li><strong>Overall Success Rate:</strong> 95.5%</li><li><strong>RAG Improvement:</strong> -7.0%</li><li><strong>Best Condition:</strong> review_only</li><li><strong>Best Condition Success Rate:</strong> 100.0%</li><li><strong>Average Iterations (Success):</strong> 1.36</li><li><strong>Hardest Shape:</strong> pyramid</li><li><strong>Easiest Shape:</strong> box</li>
+                    </ul>
+                </div>
+
+                <h2>Success Rate by Condition</h2>
+                <img src="success_by_condition.png" alt="Success Rate by Condition">
+
+                <h2>Average Iterations to Success</h2>
+                <img src="iterations_by_condition.png" alt="Average Iterations">
+
+                <h2>Success Rate by Shape</h2>
+                <img src="success_by_shape.png" alt="Success by Shape">
+
+                <h2>Detailed Results</h2>
+                <table>
+                    <tr>
+                        <th>Shape</th>
+                        <th>Condition</th>
+                        <th>Success Rate</th>
+                        <th>Avg Iterations</th>
+                        <th>Avg Time (s)</th>
+                    </tr>
+        
+                <tr>
+                    <td>box</td>
+                    <td>baseline</td>
+                    <td class="success">100.0%</td>
+                    <td>1.0</td>
+                    <td>17.8</td>
+                </tr>
+            
+                <tr>
+                    <td>box</td>
+                    <td>full_system</td>
+                    <td class="success">100.0%</td>
+                    <td>1.7</td>
+                    <td>72.2</td>
+                </tr>
+            
+                <tr>
+                    <td>box</td>
+                    <td>rag_only</td>
+                    <td class="success">100.0%</td>
+                    <td>1.4</td>
+                    <td>33.4</td>
+                </tr>
+            
+                <tr>
+                    <td>box</td>
+                    <td>review_only</td>
+                    <td class="success">100.0%</td>
+                    <td>1.0</td>
+                    <td>37.6</td>
+                </tr>
+            
+                <tr>
+                    <td>cone</td>
+                    <td>baseline</td>
+                    <td class="success">100.0%</td>
+                    <td>1.1</td>
+                    <td>18.9</td>
+                </tr>
+            
+                <tr>
+                    <td>cone</td>
+                    <td>full_system</td>
+                    <td class="success">100.0%</td>
+                    <td>1.6</td>
+                    <td>67.6</td>
+                </tr>
+            
+                <tr>
+                    <td>cone</td>
+                    <td>rag_only</td>
+                    <td class="success">90.0%</td>
+                    <td>1.6</td>
+                    <td>34.9</td>
+                </tr>
+            
+                <tr>
+                    <td>cone</td>
+                    <td>review_only</td>
+                    <td class="success">100.0%</td>
+                    <td>1.1</td>
+                    <td>42.0</td>
+                </tr>
+            
+                <tr>
+                    <td>cylinder</td>
+                    <td>baseline</td>
+                    <td class="success">100.0%</td>
+                    <td>1.0</td>
+                    <td>15.5</td>
+                </tr>
+            
+                <tr>
+                    <td>cylinder</td>
+                    <td>full_system</td>
+                    <td class="success">100.0%</td>
+                    <td>1.1</td>
+                    <td>50.3</td>
+                </tr>
+            
+                <tr>
+                    <td>cylinder</td>
+                    <td>rag_only</td>
+                    <td class="success">100.0%</td>
+                    <td>1.3</td>
+                    <td>25.1</td>
+                </tr>
+            
+                <tr>
+                    <td>cylinder</td>
+                    <td>review_only</td>
+                    <td class="success">100.0%</td>
+                    <td>1.0</td>
+                    <td>33.4</td>
+                </tr>
+            
+                <tr>
+                    <td>pyramid</td>
+                    <td>baseline</td>
+                    <td class="success">90.0%</td>
+                    <td>2.4</td>
+                    <td>72.9</td>
+                </tr>
+            
+                <tr>
+                    <td>pyramid</td>
+                    <td>full_system</td>
+                    <td class="success">80.0%</td>
+                    <td>3.0</td>
+                    <td>144.7</td>
+                </tr>
+            
+                <tr>
+                    <td>pyramid</td>
+                    <td>rag_only</td>
+                    <td class="">50.0%</td>
+                    <td>3.4</td>
+                    <td>120.8</td>
+                </tr>
+            
+                <tr>
+                    <td>pyramid</td>
+                    <td>review_only</td>
+                    <td class="success">100.0%</td>
+                    <td>2.1</td>
+                    <td>99.6</td>
+                </tr>
+            
+                <tr>
+                    <td>sphere</td>
+                    <td>baseline</td>
+                    <td class="success">100.0%</td>
+                    <td>1.1</td>
+                    <td>16.7</td>
+                </tr>
+            
+                <tr>
+                    <td>sphere</td>
+                    <td>full_system</td>
+                    <td class="success">100.0%</td>
+                    <td>1.2</td>
+                    <td>53.7</td>
+                </tr>
+            
+                <tr>
+                    <td>sphere</td>
+                    <td>rag_only</td>
+                    <td class="success">100.0%</td>
+                    <td>1.4</td>
+                    <td>27.8</td>
+                </tr>
+            
+                <tr>
+                    <td>sphere</td>
+                    <td>review_only</td>
+                    <td class="success">100.0%</td>
+                    <td>1.0</td>
+                    <td>32.6</td>
+                </tr>
+            
+                </table>
+            </div>
+        </body>
+        </html>
+        

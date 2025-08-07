@@ -1,0 +1,2625 @@
+[
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 13.31498098373413,
+    "errors": [],
+    "stl_file": "box_baseline_run1.stl",
+    "code_file": "box_baseline_run1.py",
+    "timestamp": "2025-04-30T20:10:39.259753"
+  },
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 13.60980224609375,
+    "errors": [],
+    "stl_file": "box_baseline_run2.stl",
+    "code_file": "box_baseline_run2.py",
+    "timestamp": "2025-04-30T20:10:52.906930"
+  },
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.148115634918213,
+    "errors": [],
+    "stl_file": "box_baseline_run3.stl",
+    "code_file": "box_baseline_run3.py",
+    "timestamp": "2025-04-30T20:11:10.057703"
+  },
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 19.82036066055298,
+    "errors": [],
+    "stl_file": "box_baseline_run4.stl",
+    "code_file": "box_baseline_run4.py",
+    "timestamp": "2025-04-30T20:11:29.881213"
+  },
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.953185558319092,
+    "errors": [],
+    "stl_file": "box_baseline_run5.stl",
+    "code_file": "box_baseline_run5.py",
+    "timestamp": "2025-04-30T20:11:47.836996"
+  },
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 24.421297550201416,
+    "errors": [],
+    "stl_file": "box_baseline_run6.stl",
+    "code_file": "box_baseline_run6.py",
+    "timestamp": "2025-04-30T20:12:12.260935"
+  },
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.3853497505188,
+    "errors": [],
+    "stl_file": "box_baseline_run7.stl",
+    "code_file": "box_baseline_run7.py",
+    "timestamp": "2025-04-30T20:12:28.649044"
+  },
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 18.383795499801636,
+    "errors": [],
+    "stl_file": "box_baseline_run8.stl",
+    "code_file": "box_baseline_run8.py",
+    "timestamp": "2025-04-30T20:12:47.038783"
+  },
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.343857049942017,
+    "errors": [],
+    "stl_file": "box_baseline_run9.stl",
+    "code_file": "box_baseline_run9.py",
+    "timestamp": "2025-04-30T20:13:03.385298"
+  },
+  {
+    "shape": "box",
+    "condition": "baseline",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 20.371618032455444,
+    "errors": [],
+    "stl_file": "box_baseline_run10.stl",
+    "code_file": "box_baseline_run10.py",
+    "timestamp": "2025-04-30T20:13:23.759777"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 19.83157515525818,
+    "errors": [],
+    "stl_file": "box_rag_only_run1.stl",
+    "code_file": "box_rag_only_run1.py",
+    "timestamp": "2025-04-30T20:13:43.597194"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 25.809394121170044,
+    "errors": [],
+    "stl_file": "box_rag_only_run2.stl",
+    "code_file": "box_rag_only_run2.py",
+    "timestamp": "2025-04-30T20:14:09.409835"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.54407238960266,
+    "errors": [],
+    "stl_file": "box_rag_only_run3.stl",
+    "code_file": "box_rag_only_run3.py",
+    "timestamp": "2025-04-30T20:14:25.956510"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 45.201072216033936,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp78qn5pii.py\", line 26\n    hollow_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                           ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "box_rag_only_run4.stl",
+    "code_file": "box_rag_only_run4.py",
+    "timestamp": "2025-04-30T20:15:11.161558"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 26.13039207458496,
+    "errors": [],
+    "stl_file": "box_rag_only_run5.stl",
+    "code_file": "box_rag_only_run5.py",
+    "timestamp": "2025-04-30T20:15:37.294826"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 3,
+    "execution_time": 80.0047538280487,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp2gyyghmj.py\", line 36\n    hollow_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                           ^\nSyntaxError: '(' was never closed",
+      "Iteration 2: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpct3vb5xb.py\", line 33\n    stl_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                        ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "box_rag_only_run6.stl",
+    "code_file": "box_rag_only_run6.py",
+    "timestamp": "2025-04-30T20:16:57.303686"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 25.122913360595703,
+    "errors": [],
+    "stl_file": "box_rag_only_run7.stl",
+    "code_file": "box_rag_only_run7.py",
+    "timestamp": "2025-04-30T20:17:22.429893"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 8,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 48.93644070625305,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpnava4h4v.py\", line 33\n    numpy_stl_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                              ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "box_rag_only_run8.stl",
+    "code_file": "box_rag_only_run8.py",
+    "timestamp": "2025-04-30T20:18:11.369511"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 19.695394277572632,
+    "errors": [],
+    "stl_file": "box_rag_only_run9.stl",
+    "code_file": "box_rag_only_run9.py",
+    "timestamp": "2025-04-30T20:18:31.067853"
+  },
+  {
+    "shape": "box",
+    "condition": "rag_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 26.35916805267334,
+    "errors": [],
+    "stl_file": "box_rag_only_run10.stl",
+    "code_file": "box_rag_only_run10.py",
+    "timestamp": "2025-04-30T20:18:57.429902"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 38.21336889266968,
+    "errors": [],
+    "stl_file": "box_review_only_run1.stl",
+    "code_file": "box_review_only_run1.py",
+    "timestamp": "2025-04-30T20:19:35.648017"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 35.31722640991211,
+    "errors": [],
+    "stl_file": "box_review_only_run2.stl",
+    "code_file": "box_review_only_run2.py",
+    "timestamp": "2025-04-30T20:20:10.968084"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 42.67138600349426,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpll5u8vex.py\", line 29, in <module>\n    hollow_box = outer_box.difference(inner_box, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "box_review_only_run3.stl",
+    "code_file": "box_review_only_run3.py",
+    "timestamp": "2025-04-30T20:20:53.642660"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 37.29731464385986,
+    "errors": [],
+    "stl_file": "box_review_only_run4.stl",
+    "code_file": "box_review_only_run4.py",
+    "timestamp": "2025-04-30T20:21:30.943241"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 45.24190807342529,
+    "errors": [],
+    "stl_file": "box_review_only_run5.stl",
+    "code_file": "box_review_only_run5.py",
+    "timestamp": "2025-04-30T20:22:16.191562"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 34.074581146240234,
+    "errors": [],
+    "stl_file": "box_review_only_run6.stl",
+    "code_file": "box_review_only_run6.py",
+    "timestamp": "2025-04-30T20:22:50.269975"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 31.210479259490967,
+    "errors": [],
+    "stl_file": "box_review_only_run7.stl",
+    "code_file": "box_review_only_run7.py",
+    "timestamp": "2025-04-30T20:23:21.483570"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 34.547407388687134,
+    "errors": [],
+    "stl_file": "box_review_only_run8.stl",
+    "code_file": "box_review_only_run8.py",
+    "timestamp": "2025-04-30T20:23:56.033859"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 39.159371852874756,
+    "errors": [],
+    "stl_file": "box_review_only_run9.stl",
+    "code_file": "box_review_only_run9.py",
+    "timestamp": "2025-04-30T20:24:35.196578"
+  },
+  {
+    "shape": "box",
+    "condition": "review_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 38.2141969203949,
+    "errors": [],
+    "stl_file": "box_review_only_run10.stl",
+    "code_file": "box_review_only_run10.py",
+    "timestamp": "2025-04-30T20:25:13.414248"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 1,
+    "success": true,
+    "iterations": 3,
+    "execution_time": 97.44320392608643,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpe1tu1llj.py\", line 26\n    stl_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                        ^\nSyntaxError: '(' was never closed",
+      "Iteration 2: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp_h06fjn9.py\", line 26\n    stl_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                        ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "box_full_system_run1.stl",
+    "code_file": "box_full_system_run1.py",
+    "timestamp": "2025-04-30T20:26:50.860999"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 59.28772974014282,
+    "errors": [],
+    "stl_file": "box_full_system_run2.stl",
+    "code_file": "box_full_system_run2.py",
+    "timestamp": "2025-04-30T20:27:50.152016"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 55.531373262405396,
+    "errors": [],
+    "stl_file": "box_full_system_run3.stl",
+    "code_file": "box_full_system_run3.py",
+    "timestamp": "2025-04-30T20:28:45.687334"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 4,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 77.9451048374176,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp6z7n3yzl.py\", line 24\n    numpy_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                          ^\nSyntaxError: '(' was never closed",
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpbbcfn817.py:26: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_box.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpbbcfn817.py:27: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_box.remove_duplicate_faces()"
+    ],
+    "stl_file": "box_full_system_run4.stl",
+    "code_file": "box_full_system_run4.py",
+    "timestamp": "2025-04-30T20:30:03.636347"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 53.533061265945435,
+    "errors": [],
+    "stl_file": "box_full_system_run5.stl",
+    "code_file": "box_full_system_run5.py",
+    "timestamp": "2025-04-30T20:30:57.174059"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 58.112255573272705,
+    "errors": [],
+    "stl_file": "box_full_system_run6.stl",
+    "code_file": "box_full_system_run6.py",
+    "timestamp": "2025-04-30T20:31:55.290486"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 7,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 86.23056650161743,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp1vkg5zkb.py\", line 26\n    box_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                        ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "box_full_system_run7.stl",
+    "code_file": "box_full_system_run7.py",
+    "timestamp": "2025-04-30T20:33:21.525308"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 8,
+    "success": true,
+    "iterations": 3,
+    "execution_time": 102.15871739387512,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp501p9b5p.py\", line 24\n    numpy_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                          ^\nSyntaxError: '(' was never closed",
+      "Iteration 2: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp4ovnl1k3.py\", line 27\n    numpy_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                          ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "box_full_system_run8.stl",
+    "code_file": "box_full_system_run8.py",
+    "timestamp": "2025-04-30T20:35:03.687331"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 45.40065550804138,
+    "errors": [],
+    "stl_file": "box_full_system_run9.stl",
+    "code_file": "box_full_system_run9.py",
+    "timestamp": "2025-04-30T20:35:49.092049"
+  },
+  {
+    "shape": "box",
+    "condition": "full_system",
+    "run_number": 10,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 86.02762389183044,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp7a0q3q89.py\", line 22\n    box_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                        ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "box_full_system_run10.stl",
+    "code_file": "box_full_system_run10.py",
+    "timestamp": "2025-04-30T20:37:15.124288"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.18420147895813,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run1.stl",
+    "code_file": "cylinder_baseline_run1.py",
+    "timestamp": "2025-04-30T20:37:31.312595"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 15.224133491516113,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run2.stl",
+    "code_file": "cylinder_baseline_run2.py",
+    "timestamp": "2025-04-30T20:37:46.540375"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 14.326617002487183,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run3.stl",
+    "code_file": "cylinder_baseline_run3.py",
+    "timestamp": "2025-04-30T20:38:00.871961"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.358211040496826,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run4.stl",
+    "code_file": "cylinder_baseline_run4.py",
+    "timestamp": "2025-04-30T20:38:17.234592"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.35151171684265,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run5.stl",
+    "code_file": "cylinder_baseline_run5.py",
+    "timestamp": "2025-04-30T20:38:33.590451"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 14.747068166732788,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run6.stl",
+    "code_file": "cylinder_baseline_run6.py",
+    "timestamp": "2025-04-30T20:38:48.341945"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.265811681747437,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run7.stl",
+    "code_file": "cylinder_baseline_run7.py",
+    "timestamp": "2025-04-30T20:39:04.611550"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 15.151948928833008,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run8.stl",
+    "code_file": "cylinder_baseline_run8.py",
+    "timestamp": "2025-04-30T20:39:19.768065"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.10676097869873,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run9.stl",
+    "code_file": "cylinder_baseline_run9.py",
+    "timestamp": "2025-04-30T20:39:35.879210"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "baseline",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 14.65219783782959,
+    "errors": [],
+    "stl_file": "cylinder_baseline_run10.stl",
+    "code_file": "cylinder_baseline_run10.py",
+    "timestamp": "2025-04-30T20:39:50.535687"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 15.579392433166504,
+    "errors": [],
+    "stl_file": "cylinder_rag_only_run1.stl",
+    "code_file": "cylinder_rag_only_run1.py",
+    "timestamp": "2025-04-30T20:40:06.119674"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.61186146736145,
+    "errors": [],
+    "stl_file": "cylinder_rag_only_run2.stl",
+    "code_file": "cylinder_rag_only_run2.py",
+    "timestamp": "2025-04-30T20:40:23.736254"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.407266855239868,
+    "errors": [],
+    "stl_file": "cylinder_rag_only_run3.stl",
+    "code_file": "cylinder_rag_only_run3.py",
+    "timestamp": "2025-04-30T20:40:40.147901"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 20.15429425239563,
+    "errors": [],
+    "stl_file": "cylinder_rag_only_run4.stl",
+    "code_file": "cylinder_rag_only_run4.py",
+    "timestamp": "2025-04-30T20:41:00.306627"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 20.402841806411743,
+    "errors": [],
+    "stl_file": "cylinder_rag_only_run5.stl",
+    "code_file": "cylinder_rag_only_run5.py",
+    "timestamp": "2025-04-30T20:41:20.878972"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 18.693034410476685,
+    "errors": [],
+    "stl_file": "cylinder_rag_only_run6.stl",
+    "code_file": "cylinder_rag_only_run6.py",
+    "timestamp": "2025-04-30T20:41:39.576569"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 7,
+    "success": true,
+    "iterations": 4,
+    "execution_time": 80.56761431694031,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpx5na2eyd.py:16: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cylinder.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpx5na2eyd.py:17: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cylinder.remove_duplicate_faces()",
+      "Iteration 2: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpes2eo4r7.py\", line 31\n    stl_mesh_obj = stl_mesh.Mesh(np.zeros(faces.shape[0], dtype=stl_mesh.Mesh.dtype)\n                                ^\nSyntaxError: '(' was never closed",
+      "Iteration 3: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpu88a2lxm.py\", line 22\n    stl_mesh_obj = stl_mesh.Mesh(np.zeros(faces.shape[0], dtype=stl_mesh.Mesh.dtype)\n                                ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "cylinder_rag_only_run7.stl",
+    "code_file": "cylinder_rag_only_run7.py",
+    "timestamp": "2025-04-30T20:43:00.149341"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 18.561598777770996,
+    "errors": [],
+    "stl_file": "cylinder_rag_only_run8.stl",
+    "code_file": "cylinder_rag_only_run8.py",
+    "timestamp": "2025-04-30T20:43:18.714879"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 20.05207133293152,
+    "errors": [],
+    "stl_file": "cylinder_rag_only_run9.stl",
+    "code_file": "cylinder_rag_only_run9.py",
+    "timestamp": "2025-04-30T20:43:38.771015"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "rag_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 22.69137167930603,
+    "errors": [],
+    "stl_file": "cylinder_rag_only_run10.stl",
+    "code_file": "cylinder_rag_only_run10.py",
+    "timestamp": "2025-04-30T20:44:01.467642"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 32.90284490585327,
+    "errors": [],
+    "stl_file": "cylinder_review_only_run1.stl",
+    "code_file": "cylinder_review_only_run1.py",
+    "timestamp": "2025-04-30T20:44:34.376253"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 35.19652819633484,
+    "errors": [],
+    "stl_file": "cylinder_review_only_run2.stl",
+    "code_file": "cylinder_review_only_run2.py",
+    "timestamp": "2025-04-30T20:45:09.577698"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 33.7043936252594,
+    "errors": [],
+    "stl_file": "cylinder_review_only_run3.stl",
+    "code_file": "cylinder_review_only_run3.py",
+    "timestamp": "2025-04-30T20:45:43.287049"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 36.23871064186096,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmprqnlaxmu.py:40: DeprecationWarning: `mesh.smoothed()` is deprecated and will be removed in March 2024: use `mesh.smooth_shaded` or `trimesh.graph.smooth_shade(mesh)`\n  final_mesh = final_mesh.smoothed()\nTraceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmprqnlaxmu.py\", line 54, in <module>\n    create_printable_hollow_cylinder()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmprqnlaxmu.py\", line 48, in create_printable_hollow_cylinder\n    final_mesh.export(\n    ~~~~~~~~~~~~~~~~~^\n        'output.stl',\n        ^^^^^^^^^^^^^\n        file_type='stl',\n        ^^^^^^^^^^^^^^^^\n        resolution=500  # Higher resolution for smooth curves\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2831, in export\n    return export_mesh(mesh=self, file_obj=file_obj, file_type=file_type, **kwargs)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exchange\\export.py\", line 85, in export_mesh\n    export = _mesh_exporters[file_type](mesh, **kwargs)\nTypeError: export_stl() got an unexpected keyword argument 'resolution'"
+    ],
+    "stl_file": "cylinder_review_only_run4.stl",
+    "code_file": "cylinder_review_only_run4.py",
+    "timestamp": "2025-04-30T20:46:19.531524"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 36.26608657836914,
+    "errors": [],
+    "stl_file": "cylinder_review_only_run5.stl",
+    "code_file": "cylinder_review_only_run5.py",
+    "timestamp": "2025-04-30T20:46:55.802613"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 33.3087363243103,
+    "errors": [],
+    "stl_file": "cylinder_review_only_run6.stl",
+    "code_file": "cylinder_review_only_run6.py",
+    "timestamp": "2025-04-30T20:47:29.116416"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 31.892180919647217,
+    "errors": [],
+    "stl_file": "cylinder_review_only_run7.stl",
+    "code_file": "cylinder_review_only_run7.py",
+    "timestamp": "2025-04-30T20:48:01.013603"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 31.53280997276306,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpd06v11gj.py\", line 33, in <module>\n    hollow_cylinder = create_printable_hollow_cylinder()\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpd06v11gj.py\", line 12, in create_printable_hollow_cylinder\n    hollow_cylinder = outer_cylinder.difference(inner_cylinder, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "cylinder_review_only_run8.stl",
+    "code_file": "cylinder_review_only_run8.py",
+    "timestamp": "2025-04-30T20:48:32.551441"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 34.0375771522522,
+    "errors": [],
+    "stl_file": "cylinder_review_only_run9.stl",
+    "code_file": "cylinder_review_only_run9.py",
+    "timestamp": "2025-04-30T20:49:06.594125"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "review_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 29.100861310958862,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp0f_54f9q.py:16: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cylinder.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmp0f_54f9q.py:17: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cylinder.remove_duplicate_faces()"
+    ],
+    "stl_file": "cylinder_review_only_run10.stl",
+    "code_file": "cylinder_review_only_run10.py",
+    "timestamp": "2025-04-30T20:49:35.700069"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 1,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 81.33873701095581,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp2k10d8o3.py\", line 30, in <module>\n    top_cap = trimesh.creation.extrude_polygon(outer_circle, height=0.1)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\creation.py\", line 235, in extrude_polygon\n    vertices, faces = triangulate_polygon(polygon, **kwargs)\n                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\creation.py\", line 632, in triangulate_polygon\n    np.array(polygon.exterior.coords)[:: (1 if polygon.exterior.is_ccw else -1)][\n             ^^^^^^^^^^^^^^^^\nAttributeError: 'Path2D' object has no attribute 'exterior'"
+    ],
+    "stl_file": "cylinder_full_system_run1.stl",
+    "code_file": "cylinder_full_system_run1.py",
+    "timestamp": "2025-04-30T20:50:57.044414"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 50.003745555877686,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpdampmbtx.py\", line 34, in <module>\n    create_hollow_cylinder()\n    ~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpdampmbtx.py\", line 25, in create_hollow_cylinder\n    volume, cog, inertia = hollow_cylinder.mass_properties\n    ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\triangles.py\", line 211, in __getitem__\n    return getattr(self, item)\nTypeError: attribute name must be string, not 'int'"
+    ],
+    "stl_file": "cylinder_full_system_run2.stl",
+    "code_file": "cylinder_full_system_run2.py",
+    "timestamp": "2025-04-30T20:51:47.052617"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 41.71353197097778,
+    "errors": [],
+    "stl_file": "cylinder_full_system_run3.stl",
+    "code_file": "cylinder_full_system_run3.py",
+    "timestamp": "2025-04-30T20:52:28.770869"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 49.20987153053284,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpo9hw2a3f.py:18: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cylinder.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpo9hw2a3f.py:19: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cylinder.remove_duplicate_faces()"
+    ],
+    "stl_file": "cylinder_full_system_run4.stl",
+    "code_file": "cylinder_full_system_run4.py",
+    "timestamp": "2025-04-30T20:53:17.984908"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 52.46020269393921,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp9hvtefvn.py\", line 43, in <module>\n    cylinder_mesh = create_printable_hollow_cylinder(\n        radius=15.0,\n    ...<2 lines>...\n        filename='hollow_cylinder.stl'\n    )\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp9hvtefvn.py\", line 22, in create_printable_hollow_cylinder\n    hollow = difference(outer, inner, engine='blender')\nTypeError: difference() got multiple values for argument 'engine'"
+    ],
+    "stl_file": "cylinder_full_system_run5.stl",
+    "code_file": "cylinder_full_system_run5.py",
+    "timestamp": "2025-04-30T20:54:10.449322"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 49.652350664138794,
+    "errors": [],
+    "stl_file": "cylinder_full_system_run6.stl",
+    "code_file": "cylinder_full_system_run6.py",
+    "timestamp": "2025-04-30T20:55:00.107581"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 41.663997411727905,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp1v5089_n.py\", line 12, in <module>\n    hollow_cylinder = outer_cylinder.difference(inner_cylinder, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "cylinder_full_system_run7.stl",
+    "code_file": "cylinder_full_system_run7.py",
+    "timestamp": "2025-04-30T20:55:41.776278"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 48.01010823249817,
+    "errors": [],
+    "stl_file": "cylinder_full_system_run8.stl",
+    "code_file": "cylinder_full_system_run8.py",
+    "timestamp": "2025-04-30T20:56:29.791270"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 46.61474800109863,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp66_ww0dq.py:32: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cylinder.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmp66_ww0dq.py:33: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cylinder.remove_duplicate_faces()"
+    ],
+    "stl_file": "cylinder_full_system_run9.stl",
+    "code_file": "cylinder_full_system_run9.py",
+    "timestamp": "2025-04-30T20:57:16.410604"
+  },
+  {
+    "shape": "cylinder",
+    "condition": "full_system",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 42.22962212562561,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp6lm7bj47.py\", line 12, in <module>\n    hollow_cylinder = outer_cylinder.difference(inner_cylinder, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "cylinder_full_system_run10.stl",
+    "code_file": "cylinder_full_system_run10.py",
+    "timestamp": "2025-04-30T20:57:58.646035"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.75006675720215,
+    "errors": [],
+    "stl_file": "cone_baseline_run1.stl",
+    "code_file": "cone_baseline_run1.py",
+    "timestamp": "2025-04-30T20:58:16.400443"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.248080253601074,
+    "errors": [],
+    "stl_file": "cone_baseline_run2.stl",
+    "code_file": "cone_baseline_run2.py",
+    "timestamp": "2025-04-30T20:58:33.654841"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 3,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 36.516191244125366,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpo4htteq1.py:31: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()"
+    ],
+    "stl_file": "cone_baseline_run3.stl",
+    "code_file": "cone_baseline_run3.py",
+    "timestamp": "2025-04-30T20:59:10.175753"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 19.3805730342865,
+    "errors": [],
+    "stl_file": "cone_baseline_run4.stl",
+    "code_file": "cone_baseline_run4.py",
+    "timestamp": "2025-04-30T20:59:29.561278"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.215093851089478,
+    "errors": [],
+    "stl_file": "cone_baseline_run5.stl",
+    "code_file": "cone_baseline_run5.py",
+    "timestamp": "2025-04-30T20:59:45.780662"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 13.372429370880127,
+    "errors": [],
+    "stl_file": "cone_baseline_run6.stl",
+    "code_file": "cone_baseline_run6.py",
+    "timestamp": "2025-04-30T20:59:59.157451"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 15.503121137619019,
+    "errors": [],
+    "stl_file": "cone_baseline_run7.stl",
+    "code_file": "cone_baseline_run7.py",
+    "timestamp": "2025-04-30T21:00:14.665016"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 14.25125241279602,
+    "errors": [],
+    "stl_file": "cone_baseline_run8.stl",
+    "code_file": "cone_baseline_run8.py",
+    "timestamp": "2025-04-30T21:00:28.923729"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 18.078219175338745,
+    "errors": [],
+    "stl_file": "cone_baseline_run9.stl",
+    "code_file": "cone_baseline_run9.py",
+    "timestamp": "2025-04-30T21:00:47.006761"
+  },
+  {
+    "shape": "cone",
+    "condition": "baseline",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 20.518930673599243,
+    "errors": [],
+    "stl_file": "cone_baseline_run10.stl",
+    "code_file": "cone_baseline_run10.py",
+    "timestamp": "2025-04-30T21:01:07.530401"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 20.01435923576355,
+    "errors": [],
+    "stl_file": "cone_rag_only_run1.stl",
+    "code_file": "cone_rag_only_run1.py",
+    "timestamp": "2025-04-30T21:01:27.549267"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 2,
+    "success": false,
+    "iterations": 5,
+    "execution_time": 116.00443172454834,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpwchi3ckj.py:23: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  final_mesh.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpwchi3ckj.py:24: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  final_mesh.remove_duplicate_faces()",
+      "Iteration 2: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpcp0_8jug.py\", line 24\n    numpy_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                          ^\nSyntaxError: '(' was never closed",
+      "Iteration 3: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp4gyo7x8t.py:20: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmp4gyo7x8t.py:21: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()",
+      "Iteration 4: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp07_4b5iq.py\", line 27\n    numpy_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                          ^\nSyntaxError: '(' was never closed",
+      "Iteration 5: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpexhyd4bu.py:17: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpexhyd4bu.py:18: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()"
+    ],
+    "stl_file": null,
+    "code_file": "cone_rag_only_run2.py",
+    "timestamp": "2025-04-30T21:03:23.559500"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 3,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 41.84017252922058,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpzp810sdp.py:17: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpzp810sdp.py:18: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()"
+    ],
+    "stl_file": "cone_rag_only_run3.stl",
+    "code_file": "cone_rag_only_run3.py",
+    "timestamp": "2025-04-30T21:04:05.405678"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 23.516114950180054,
+    "errors": [],
+    "stl_file": "cone_rag_only_run4.stl",
+    "code_file": "cone_rag_only_run4.py",
+    "timestamp": "2025-04-30T21:04:28.926925"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 19.294837951660156,
+    "errors": [],
+    "stl_file": "cone_rag_only_run5.stl",
+    "code_file": "cone_rag_only_run5.py",
+    "timestamp": "2025-04-30T21:04:48.226569"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 47.21350312232971,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpnk12iw62.py:20: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpnk12iw62.py:21: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()"
+    ],
+    "stl_file": "cone_rag_only_run6.stl",
+    "code_file": "cone_rag_only_run6.py",
+    "timestamp": "2025-04-30T21:05:35.444936"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 20.68155312538147,
+    "errors": [],
+    "stl_file": "cone_rag_only_run7.stl",
+    "code_file": "cone_rag_only_run7.py",
+    "timestamp": "2025-04-30T21:05:56.133705"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 20.14978265762329,
+    "errors": [],
+    "stl_file": "cone_rag_only_run8.stl",
+    "code_file": "cone_rag_only_run8.py",
+    "timestamp": "2025-04-30T21:06:16.288264"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 23.54074740409851,
+    "errors": [],
+    "stl_file": "cone_rag_only_run9.stl",
+    "code_file": "cone_rag_only_run9.py",
+    "timestamp": "2025-04-30T21:06:39.833621"
+  },
+  {
+    "shape": "cone",
+    "condition": "rag_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.23821258544922,
+    "errors": [],
+    "stl_file": "cone_rag_only_run10.stl",
+    "code_file": "cone_rag_only_run10.py",
+    "timestamp": "2025-04-30T21:06:57.076808"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 39.18322801589966,
+    "errors": [],
+    "stl_file": "cone_review_only_run1.stl",
+    "code_file": "cone_review_only_run1.py",
+    "timestamp": "2025-04-30T21:07:36.264708"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 41.78909754753113,
+    "errors": [],
+    "stl_file": "cone_review_only_run2.stl",
+    "code_file": "cone_review_only_run2.py",
+    "timestamp": "2025-04-30T21:08:18.058453"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 3,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 56.088265895843506,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpb2j6x11l.py:19: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()",
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp7lg26ew4.py:22: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmp7lg26ew4.py:23: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()"
+    ],
+    "stl_file": "cone_review_only_run3.stl",
+    "code_file": "cone_review_only_run3.py",
+    "timestamp": "2025-04-30T21:09:14.151365"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 40.74826645851135,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmppeg94tzv.py\", line 25, in <module>\n    hollow_cone = outer_cone.difference(inner_cone, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmppeg94tzv.py\", line 27, in <module>\n    raise RuntimeError(\"Boolean operation failed\") from e\nRuntimeError: Boolean operation failed"
+    ],
+    "stl_file": "cone_review_only_run4.stl",
+    "code_file": "cone_review_only_run4.py",
+    "timestamp": "2025-04-30T21:09:54.905353"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 40.524102449417114,
+    "errors": [],
+    "stl_file": "cone_review_only_run5.stl",
+    "code_file": "cone_review_only_run5.py",
+    "timestamp": "2025-04-30T21:10:35.434314"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 44.96982216835022,
+    "errors": [],
+    "stl_file": "cone_review_only_run6.stl",
+    "code_file": "cone_review_only_run6.py",
+    "timestamp": "2025-04-30T21:11:20.408835"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 40.23454308509827,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp104q78yp.py:33: DeprecationWarning: `mesh.smoothed()` is deprecated and will be removed in March 2024: use `mesh.smooth_shaded` or `trimesh.graph.smooth_shade(mesh)`\n  hollow_cone = hollow_cone.smoothed()\nTraceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp104q78yp.py\", line 36, in <module>\n    assert hollow_cone.is_watertight, \"Mesh is not watertight\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Mesh is not watertight"
+    ],
+    "stl_file": "cone_review_only_run7.stl",
+    "code_file": "cone_review_only_run7.py",
+    "timestamp": "2025-04-30T21:12:00.648143"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 32.31523156166077,
+    "errors": [],
+    "stl_file": "cone_review_only_run8.stl",
+    "code_file": "cone_review_only_run8.py",
+    "timestamp": "2025-04-30T21:12:32.968413"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 44.09197735786438,
+    "errors": [],
+    "stl_file": "cone_review_only_run9.stl",
+    "code_file": "cone_review_only_run9.py",
+    "timestamp": "2025-04-30T21:13:17.068822"
+  },
+  {
+    "shape": "cone",
+    "condition": "review_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 40.140021562576294,
+    "errors": [],
+    "stl_file": "cone_review_only_run10.stl",
+    "code_file": "cone_review_only_run10.py",
+    "timestamp": "2025-04-30T21:13:57.214040"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 52.72993230819702,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpnais7z9u.py:32: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  result.remove_duplicate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpnais7z9u.py:33: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  result.remove_degenerate_faces()\nTraceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpnais7z9u.py\", line 51, in <module>\n    create_printable_cone()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpnais7z9u.py\", line 46, in create_printable_cone\n    result.export('output.stl', file_type='stl_binary')\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2831, in export\n    return export_mesh(mesh=self, file_obj=file_obj, file_type=file_type, **kwargs)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exchange\\export.py\", line 64, in export_mesh\n    raise ValueError(\"%s exporter not available!\", file_type)\nValueError: ('%s exporter not available!', 'stl_binary')"
+    ],
+    "stl_file": "cone_full_system_run1.stl",
+    "code_file": "cone_full_system_run1.py",
+    "timestamp": "2025-04-30T21:14:49.949254"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 50.39836525917053,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpo_zd0sac.py:21: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpo_zd0sac.py:22: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()\nTraceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpo_zd0sac.py\", line 30, in <module>\n    hollow_cone.export('hollow_cone.stl', file_type='stl_binary')\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2831, in export\n    return export_mesh(mesh=self, file_obj=file_obj, file_type=file_type, **kwargs)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exchange\\export.py\", line 64, in export_mesh\n    raise ValueError(\"%s exporter not available!\", file_type)\nValueError: ('%s exporter not available!', 'stl_binary')"
+    ],
+    "stl_file": "cone_full_system_run2.stl",
+    "code_file": "cone_full_system_run2.py",
+    "timestamp": "2025-04-30T21:15:40.352782"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 3,
+    "success": true,
+    "iterations": 3,
+    "execution_time": 98.91509318351746,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpwp1k4dsz.py:20: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpwp1k4dsz.py:21: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()",
+      "Iteration 2: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmptyxcl__0.py\", line 26\n    numpy_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                          ^\nSyntaxError: '(' was never closed",
+      "Review failed: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpwlfvr9np.py\", line 29\n    numpy_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                          ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "cone_full_system_run3.stl",
+    "code_file": "cone_full_system_run3.py",
+    "timestamp": "2025-04-30T21:17:19.273149"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 4,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 84.0478127002716,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpp2haj886.py:27: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  final_mesh.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpp2haj886.py:28: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  final_mesh.remove_duplicate_faces()"
+    ],
+    "stl_file": "cone_full_system_run4.stl",
+    "code_file": "cone_full_system_run4.py",
+    "timestamp": "2025-04-30T21:18:43.326981"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 54.41906476020813,
+    "errors": [],
+    "stl_file": "cone_full_system_run5.stl",
+    "code_file": "cone_full_system_run5.py",
+    "timestamp": "2025-04-30T21:19:37.751431"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 47.19211745262146,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp3qdebr4_.py\", line 14, in <module>\n    hollow_cone = outer_cone.difference(inner_cone, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "cone_full_system_run6.stl",
+    "code_file": "cone_full_system_run6.py",
+    "timestamp": "2025-04-30T21:20:24.949138"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 7,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 80.34174108505249,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpona48xtb.py:20: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpona48xtb.py:21: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()",
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpfx0dp0d2.py:18: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpfx0dp0d2.py:19: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nTraceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpfx0dp0d2.py\", line 32, in <module>\n    hollow_cone.export('output.stl', file_type='stl_binary')\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2831, in export\n    return export_mesh(mesh=self, file_obj=file_obj, file_type=file_type, **kwargs)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exchange\\export.py\", line 64, in export_mesh\n    raise ValueError(\"%s exporter not available!\", file_type)\nValueError: ('%s exporter not available!', 'stl_binary')"
+    ],
+    "stl_file": "cone_full_system_run7.stl",
+    "code_file": "cone_full_system_run7.py",
+    "timestamp": "2025-04-30T21:21:45.295912"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 55.720977783203125,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp6qrrwe99.py:52: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  final_mesh.remove_duplicate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmp6qrrwe99.py:53: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  final_mesh.remove_degenerate_faces()"
+    ],
+    "stl_file": "cone_full_system_run8.stl",
+    "code_file": "cone_full_system_run8.py",
+    "timestamp": "2025-04-30T21:22:41.022219"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 9,
+    "success": true,
+    "iterations": 3,
+    "execution_time": 98.69397282600403,
+    "errors": [
+      "Iteration 1: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpclisgtlz.py:18: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_cone.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpclisgtlz.py:19: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_cone.remove_duplicate_faces()",
+      "Iteration 2: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmps1jzpu0v.py\", line 29\n    numpy_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                          ^\nSyntaxError: '(' was never closed",
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpfc9jctrh.py\", line 18, in <module>\n    hollow_cone = hollow_cone.union(base)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2896, in union\n    return boolean.union(\n           ~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 77, in union\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!"
+    ],
+    "stl_file": "cone_full_system_run9.stl",
+    "code_file": "cone_full_system_run9.py",
+    "timestamp": "2025-04-30T21:24:19.723528"
+  },
+  {
+    "shape": "cone",
+    "condition": "full_system",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 53.43015646934509,
+    "errors": [],
+    "stl_file": "cone_full_system_run10.stl",
+    "code_file": "cone_full_system_run10.py",
+    "timestamp": "2025-04-30T21:25:13.159007"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 30.724628686904907,
+    "errors": [],
+    "stl_file": "pyramid_baseline_run1.stl",
+    "code_file": "pyramid_baseline_run1.py",
+    "timestamp": "2025-04-30T21:25:43.889113"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 2,
+    "success": false,
+    "iterations": 5,
+    "execution_time": 152.82895612716675,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpimjilwyu.py\", line 46, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmphxlemok1.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp0j9mnlyg.py\", line 30, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpi1ibmxha.py\", line 46, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 5: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpdnv4ujqq.py\", line 42, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'"
+    ],
+    "stl_file": null,
+    "code_file": "pyramid_baseline_run2.py",
+    "timestamp": "2025-04-30T21:28:16.723088"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 28.49057173728943,
+    "errors": [],
+    "stl_file": "pyramid_baseline_run3.stl",
+    "code_file": "pyramid_baseline_run3.py",
+    "timestamp": "2025-04-30T21:28:45.219383"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 4,
+    "success": true,
+    "iterations": 3,
+    "execution_time": 90.10775804519653,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpti9297yy.py\", line 47, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpmo6hxg1d.py\", line 41, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "pyramid_baseline_run4.stl",
+    "code_file": "pyramid_baseline_run4.py",
+    "timestamp": "2025-04-30T21:30:15.337391"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 5,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 56.50814127922058,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpu0pz3ndz.py\", line 46, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!"
+    ],
+    "stl_file": "pyramid_baseline_run5.stl",
+    "code_file": "pyramid_baseline_run5.py",
+    "timestamp": "2025-04-30T21:31:11.851473"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 29.793604135513306,
+    "errors": [],
+    "stl_file": "pyramid_baseline_run6.stl",
+    "code_file": "pyramid_baseline_run6.py",
+    "timestamp": "2025-04-30T21:31:41.651851"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 7,
+    "success": true,
+    "iterations": 4,
+    "execution_time": 109.64217209815979,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpes326xx5.py\", line 45, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp21f5sxi4.py\", line 51, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpg6h8fwf2.py\", line 6, in <module>\n    outer_pyramid = trimesh.creation.cone(\n        radius_bottom=12.5,\n    ...<2 lines>...\n        sections=4\n    )\nTypeError: cone() missing 1 required positional argument: 'radius'"
+    ],
+    "stl_file": "pyramid_baseline_run7.stl",
+    "code_file": "pyramid_baseline_run7.py",
+    "timestamp": "2025-04-30T21:33:31.301604"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 8,
+    "success": true,
+    "iterations": 5,
+    "execution_time": 157.18703436851501,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmponbl07c8.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpal482x3v.py\", line 52, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpxowq6_wj.py\", line 42, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpdqne3xbd.py\", line 42, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "pyramid_baseline_run8.stl",
+    "code_file": "pyramid_baseline_run8.py",
+    "timestamp": "2025-04-30T21:36:08.496231"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 41.68353247642517,
+    "errors": [],
+    "stl_file": "pyramid_baseline_run9.stl",
+    "code_file": "pyramid_baseline_run9.py",
+    "timestamp": "2025-04-30T21:36:50.185699"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "baseline",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 31.90568470954895,
+    "errors": [],
+    "stl_file": "pyramid_baseline_run10.stl",
+    "code_file": "pyramid_baseline_run10.py",
+    "timestamp": "2025-04-30T21:37:22.097214"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 27.57007908821106,
+    "errors": [],
+    "stl_file": "pyramid_rag_only_run1.stl",
+    "code_file": "pyramid_rag_only_run1.py",
+    "timestamp": "2025-04-30T21:37:49.678259"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 2,
+    "success": false,
+    "iterations": 5,
+    "execution_time": 179.75575256347656,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpdmi_a7jq.py\", line 46, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpuggey12f.py\", line 34, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp3gciinug.py\", line 46, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpxzrdttoz.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Iteration 5: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpx5e574q8.py\", line 53, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!"
+    ],
+    "stl_file": null,
+    "code_file": "pyramid_rag_only_run2.py",
+    "timestamp": "2025-04-30T21:40:49.439499"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 3,
+    "success": false,
+    "iterations": 5,
+    "execution_time": 170.3615381717682,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpelyaeql_.py\", line 47, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpi_dup090.py\", line 43, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpyc0a4spq.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpg3ufj0jq.py\", line 43, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 5: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpj5jqdu8q.py\", line 43, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'"
+    ],
+    "stl_file": null,
+    "code_file": "pyramid_rag_only_run3.py",
+    "timestamp": "2025-04-30T21:43:39.807001"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 65.32326912879944,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp22anhmad.py\", line 53, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!"
+    ],
+    "stl_file": "pyramid_rag_only_run4.stl",
+    "code_file": "pyramid_rag_only_run4.py",
+    "timestamp": "2025-04-30T21:44:45.136702"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 79.61032295227051,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpaikj0ktc.py\", line 43, in <module>\n    pyramid_mesh = trimesh.Trimesh(vertices=all_vertices, faces=all_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10"
+    ],
+    "stl_file": "pyramid_rag_only_run5.stl",
+    "code_file": "pyramid_rag_only_run5.py",
+    "timestamp": "2025-04-30T21:46:04.753459"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 76.3608946800232,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpjvhe1lcf.py\", line 51, in <module>\n    inner_mesh = trimesh.Trimesh(vertices=inner_vertices, faces=inner_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 5 is out of bounds for axis 0 with size 5"
+    ],
+    "stl_file": "pyramid_rag_only_run6.stl",
+    "code_file": "pyramid_rag_only_run6.py",
+    "timestamp": "2025-04-30T21:47:21.120860"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 7,
+    "success": false,
+    "iterations": 5,
+    "execution_time": 173.3689329624176,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpkawap1to.py\", line 45, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp96vej95y.py\", line 47, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpo_u78s25.py\", line 43, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmphvhvtfcf.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 5: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpu56b0hay.py\", line 53, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": null,
+    "code_file": "pyramid_rag_only_run7.py",
+    "timestamp": "2025-04-30T21:50:14.495723"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 8,
+    "success": false,
+    "iterations": 5,
+    "execution_time": 168.76124835014343,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpj_lucz6u.py\", line 46, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp5aj5c7r0.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmphlvpu6ax.py\", line 38, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmprkp048bq.py\", line 38, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 5: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpfm5rrg94.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!"
+    ],
+    "stl_file": null,
+    "code_file": "pyramid_rag_only_run8.py",
+    "timestamp": "2025-04-30T21:53:03.262813"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 9,
+    "success": false,
+    "iterations": 5,
+    "execution_time": 176.943532705307,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp7rmpkqdj.py\", line 46, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp2hjz5ata.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpcrdtejse.py\", line 43, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp1w1sne57.py\", line 45, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 5: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpzblpm1gv.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!"
+    ],
+    "stl_file": null,
+    "code_file": "pyramid_rag_only_run9.py",
+    "timestamp": "2025-04-30T21:56:00.212415"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "rag_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 89.59478878974915,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpkapdiyaa.py\", line 63, in <module>\n    pyramid_mesh = trimesh.Trimesh(vertices=all_vertices, faces=all_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10"
+    ],
+    "stl_file": "pyramid_rag_only_run10.stl",
+    "code_file": "pyramid_rag_only_run10.py",
+    "timestamp": "2025-04-30T21:57:29.813863"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 62.77443265914917,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpo9vagvl5.py\", line 71, in <module>\n    pyramid = create_hollow_pyramid()\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpo9vagvl5.py\", line 64, in create_hollow_pyramid\n    min_thickness = trimesh.proximity.thickness(pyramid_mesh)\nTypeError: thickness() missing 1 required positional argument: 'points'"
+    ],
+    "stl_file": "pyramid_review_only_run1.stl",
+    "code_file": "pyramid_review_only_run1.py",
+    "timestamp": "2025-04-30T21:58:32.595193"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 2,
+    "success": true,
+    "iterations": 5,
+    "execution_time": 186.5469150543213,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp31nxppkt.py\", line 46, in <module>\n    hollow_pyramid = outer_pyramid.difference(inner_pyramid)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpxn_q7a_4.py\", line 56, in <module>\n    hollow_pyramid = outer_pyramid.difference(inner_pyramid, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpiz75uh8r.py\", line 42, in <module>\n    hollow_pyramid = outer_pyramid.difference(inner_pyramid, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpjhjerayo.py\", line 42, in <module>\n    hollow_pyramid = outer_pyramid.difference(inner_pyramid, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpi2ye3fpv.py\", line 46, in <module>\n    create_pyramid()\n    ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpi2ye3fpv.py\", line 33, in create_pyramid\n    hollow_pyramid = trimesh.boolean.difference(\n        [outer_pyramid],\n        [inner_pyramid],\n        engine='blender'\n    )\nTypeError: difference() got multiple values for argument 'engine'"
+    ],
+    "stl_file": "pyramid_review_only_run2.stl",
+    "code_file": "pyramid_review_only_run2.py",
+    "timestamp": "2025-04-30T22:01:39.152012"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 3,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 97.22984743118286,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpjin32mbk.py\", line 47, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp26ezpr87.py\", line 40, in <module>\n    raise ValueError(\"Input meshes must be watertight\")\nValueError: Input meshes must be watertight"
+    ],
+    "stl_file": "pyramid_review_only_run3.stl",
+    "code_file": "pyramid_review_only_run3.py",
+    "timestamp": "2025-04-30T22:03:16.388671"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 73.58444213867188,
+    "errors": [],
+    "stl_file": "pyramid_review_only_run4.stl",
+    "code_file": "pyramid_review_only_run4.py",
+    "timestamp": "2025-04-30T22:04:29.983474"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 107.09055972099304,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp8xu4iz7_.py\", line 52, in <module>\n    mesh = trimesh.Trimesh(vertices=all_vertices, faces=all_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10",
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpgh_38ryw.py\", line 67, in <module>\n    pyramid = create_hollow_pyramid()\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpgh_38ryw.py\", line 60, in create_hollow_pyramid\n    raise ValueError(\"Mesh is not watertight\")\nValueError: Mesh is not watertight"
+    ],
+    "stl_file": "pyramid_review_only_run5.stl",
+    "code_file": "pyramid_review_only_run5.py",
+    "timestamp": "2025-04-30T22:06:17.080536"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 64.31491208076477,
+    "errors": [],
+    "stl_file": "pyramid_review_only_run6.stl",
+    "code_file": "pyramid_review_only_run6.py",
+    "timestamp": "2025-04-30T22:07:21.402018"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 66.75255179405212,
+    "errors": [],
+    "stl_file": "pyramid_review_only_run7.stl",
+    "code_file": "pyramid_review_only_run7.py",
+    "timestamp": "2025-04-30T22:08:28.164920"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 8,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 86.61653923988342,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpf_ok_4na.py\", line 11, in <module>\n    outer_pyramid = trimesh.creation.pyramid(base_size=[base_size, base_size], height=height)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'trimesh.creation' has no attribute 'pyramid'"
+    ],
+    "stl_file": "pyramid_review_only_run8.stl",
+    "code_file": "pyramid_review_only_run8.py",
+    "timestamp": "2025-04-30T22:09:54.788046"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 9,
+    "success": true,
+    "iterations": 5,
+    "execution_time": 191.20487141609192,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpyzeh1wih.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpp1mv5u5_.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpp232kkx_.py\", line 42, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpdwnial1b.py\", line 33, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "pyramid_review_only_run9.stl",
+    "code_file": "pyramid_review_only_run9.py",
+    "timestamp": "2025-04-30T22:13:05.999936"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "review_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 59.56317329406738,
+    "errors": [],
+    "stl_file": "pyramid_review_only_run10.stl",
+    "code_file": "pyramid_review_only_run10.py",
+    "timestamp": "2025-04-30T22:14:05.572080"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 1,
+    "success": true,
+    "iterations": 3,
+    "execution_time": 155.42206358909607,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpcbczfgnv.py\", line 56, in <module>\n    pyramid_mesh.vectors[i][j] = all_vertices[f[j], :]\n                                 ~~~~~~~~~~~~^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp0v7gkiz5.py\", line 68, in <module>\n    pyramid_mesh.vectors[i][j] = all_vertices[f[j], :]\n                                 ~~~~~~~~~~~~^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10",
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp8pw8eczo.py:58: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_pyramid.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmp8pw8eczo.py:59: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_pyramid.remove_duplicate_faces()"
+    ],
+    "stl_file": "pyramid_full_system_run1.stl",
+    "code_file": "pyramid_full_system_run1.py",
+    "timestamp": "2025-04-30T22:16:41.002235"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 2,
+    "success": true,
+    "iterations": 3,
+    "execution_time": 156.62939262390137,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmplcy8_oa3.py\", line 65, in <module>\n    pyramid_mesh = trimesh.Trimesh(vertices=all_vertices, faces=all_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpjcgv_ddm.py\", line 51, in <module>\n    inner_mesh = trimesh.Trimesh(vertices=inner_vertices, faces=inner_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 5 is out of bounds for axis 0 with size 5",
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpa5yt9ica.py:59: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_pyramid.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpa5yt9ica.py:60: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_pyramid.remove_duplicate_faces()"
+    ],
+    "stl_file": "pyramid_full_system_run2.stl",
+    "code_file": "pyramid_full_system_run2.py",
+    "timestamp": "2025-04-30T22:19:17.639028"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 82.78903126716614,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp4cb3_2h9.py:57: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_pyramid.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmp4cb3_2h9.py:58: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_pyramid.remove_duplicate_faces()\nTraceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp4cb3_2h9.py\", line 67, in <module>\n    hollow_pyramid.export('hollow_pyramid.stl', file_type='stl_binary')\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2831, in export\n    return export_mesh(mesh=self, file_obj=file_obj, file_type=file_type, **kwargs)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exchange\\export.py\", line 64, in export_mesh\n    raise ValueError(\"%s exporter not available!\", file_type)\nValueError: ('%s exporter not available!', 'stl_binary')"
+    ],
+    "stl_file": "pyramid_full_system_run3.stl",
+    "code_file": "pyramid_full_system_run3.py",
+    "timestamp": "2025-04-30T22:20:40.439008"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 74.84614586830139,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpfwlcwa88.py\", line 64, in <module>\n    hollow_pyramid = create_hollow_pyramid()\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpfwlcwa88.py\", line 46, in create_hollow_pyramid\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "pyramid_full_system_run4.stl",
+    "code_file": "pyramid_full_system_run4.py",
+    "timestamp": "2025-04-30T22:21:55.300288"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 5,
+    "success": true,
+    "iterations": 4,
+    "execution_time": 179.31687426567078,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpbbt_nqtq.py\", line 46, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp4issnyha.py\", line 45, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpiuvxg77q.py\", line 47, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpbkk7_73a.py:54: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_pyramid.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpbkk7_73a.py:55: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_pyramid.remove_duplicate_faces()"
+    ],
+    "stl_file": "pyramid_full_system_run5.stl",
+    "code_file": "pyramid_full_system_run5.py",
+    "timestamp": "2025-04-30T22:24:54.627144"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 81.93038845062256,
+    "errors": [],
+    "stl_file": "pyramid_full_system_run6.stl",
+    "code_file": "pyramid_full_system_run6.py",
+    "timestamp": "2025-04-30T22:26:16.566125"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 7,
+    "success": true,
+    "iterations": 3,
+    "execution_time": 140.40422105789185,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp81qx2ryf.py\", line 46, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpapz7sps6.py\", line 52, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~^^^^^^^^\nKeyError: 'scad'",
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpva_vccnx.py\", line 70, in <module>\n    model = create_hollow_pyramid()\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpva_vccnx.py\", line 52, in create_hollow_pyramid\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`"
+    ],
+    "stl_file": "pyramid_full_system_run7.stl",
+    "code_file": "pyramid_full_system_run7.py",
+    "timestamp": "2025-04-30T22:28:36.978866"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 8,
+    "success": true,
+    "iterations": 4,
+    "execution_time": 200.8440706729889,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmphfvpc1qq.py\", line 15, in <module>\n    outer_pyramid = trimesh.creation.pyramid(outer_base, height=height)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'trimesh.creation' has no attribute 'pyramid'",
+      "Iteration 2: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmputzt53cq.py\", line 51\n    pyramid_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                            ^\nSyntaxError: '(' was never closed",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpwx2ggw81.py\", line 59, in <module>\n    pyramid_mesh.vectors[i][j] = vertices[f[j], :]\n                                 ~~~~~~~~^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10"
+    ],
+    "stl_file": "pyramid_full_system_run8.stl",
+    "code_file": "pyramid_full_system_run8.py",
+    "timestamp": "2025-04-30T22:31:57.834003"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 9,
+    "success": false,
+    "iterations": 5,
+    "execution_time": 167.13232922554016,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmprhkj7pal.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmph23xajwy.py\", line 47, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpq_k7ociq.py\", line 53, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp6bvqfmx7.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='blender')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 49, in difference\n    return _engines[engine](meshes, operation=\"difference\", **kwargs)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exceptions.py\", line 34, in __call__\n    raise super().__getattribute__(\"exception\")\nImportError: `blender` is not in `PATH`",
+      "Iteration 5: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpsb03iqdp.py\", line 48, in <module>\n    hollow_pyramid = outer_mesh.difference(inner_mesh, engine='scad')\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2932, in difference\n    return boolean.difference(\n           ~~~~~~~~~~~~~~~~~~^\n        meshes=util.chain(self, other),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\boolean.py\", line 47, in difference\n    raise ValueError(\"Not all meshes are volumes!\")\nValueError: Not all meshes are volumes!"
+    ],
+    "stl_file": null,
+    "code_file": "pyramid_full_system_run9.py",
+    "timestamp": "2025-04-30T22:34:44.980523"
+  },
+  {
+    "shape": "pyramid",
+    "condition": "full_system",
+    "run_number": 10,
+    "success": false,
+    "iterations": 5,
+    "execution_time": 207.90442991256714,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp7soigmvn.py\", line 65, in <module>\n    pyramid_mesh = trimesh.Trimesh(vertices=all_vertices, faces=all_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10",
+      "Iteration 2: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp73te_4ex.py\", line 66, in <module>\n    pyramid_mesh = trimesh.Trimesh(vertices=all_vertices, faces=all_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10",
+      "Iteration 3: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp2axtj8i3.py\", line 65, in <module>\n    pyramid_mesh = trimesh.Trimesh(vertices=all_vertices, faces=all_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10",
+      "Iteration 4: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpaqufuwhp.py\", line 58, in <module>\n    pyramid_mesh = trimesh.Trimesh(vertices=all_vertices, faces=all_faces)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 224, in __init__\n    self.process(validate=validate, merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 275, in process\n    self.merge_vertices(merge_tex=merge_tex, merge_norm=merge_norm)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 1146, in merge_vertices\n    grouping.merge_vertices(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        mesh=self,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        digits_uv=digits_uv,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\grouping.py\", line 72, in merge_vertices\n    referenced[mesh.faces] = True\n    ~~~~~~~~~~^^^^^^^^^^^^\nIndexError: index 10 is out of bounds for axis 0 with size 10",
+      "Iteration 5: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpryrvks8b.py:69: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  pyramid_mesh.remove_duplicate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpryrvks8b.py:70: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  pyramid_mesh.remove_degenerate_faces()"
+    ],
+    "stl_file": null,
+    "code_file": "pyramid_full_system_run10.py",
+    "timestamp": "2025-04-30T22:38:12.905359"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 1,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 29.629721641540527,
+    "errors": [
+      "Iteration 1: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp4adqvdcv.py\", line 9, in <module>\n    hollow_sphere = sphere.shell(2.0)\n                    ^^^^^^^^^^^^\nAttributeError: 'Trimesh' object has no attribute 'shell'"
+    ],
+    "stl_file": "sphere_baseline_run1.stl",
+    "code_file": "sphere_baseline_run1.py",
+    "timestamp": "2025-04-30T22:38:42.577029"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 14.470428466796875,
+    "errors": [],
+    "stl_file": "sphere_baseline_run2.stl",
+    "code_file": "sphere_baseline_run2.py",
+    "timestamp": "2025-04-30T22:38:57.060202"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 16.650899648666382,
+    "errors": [],
+    "stl_file": "sphere_baseline_run3.stl",
+    "code_file": "sphere_baseline_run3.py",
+    "timestamp": "2025-04-30T22:39:13.729809"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 13.092170715332031,
+    "errors": [],
+    "stl_file": "sphere_baseline_run4.stl",
+    "code_file": "sphere_baseline_run4.py",
+    "timestamp": "2025-04-30T22:39:26.841729"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 13.416577100753784,
+    "errors": [],
+    "stl_file": "sphere_baseline_run5.stl",
+    "code_file": "sphere_baseline_run5.py",
+    "timestamp": "2025-04-30T22:39:40.270506"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 15.376567363739014,
+    "errors": [],
+    "stl_file": "sphere_baseline_run6.stl",
+    "code_file": "sphere_baseline_run6.py",
+    "timestamp": "2025-04-30T22:39:55.658002"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 14.810591697692871,
+    "errors": [],
+    "stl_file": "sphere_baseline_run7.stl",
+    "code_file": "sphere_baseline_run7.py",
+    "timestamp": "2025-04-30T22:40:10.487022"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.671030521392822,
+    "errors": [],
+    "stl_file": "sphere_baseline_run8.stl",
+    "code_file": "sphere_baseline_run8.py",
+    "timestamp": "2025-04-30T22:40:28.170125"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 14.528148174285889,
+    "errors": [],
+    "stl_file": "sphere_baseline_run9.stl",
+    "code_file": "sphere_baseline_run9.py",
+    "timestamp": "2025-04-30T22:40:42.710408"
+  },
+  {
+    "shape": "sphere",
+    "condition": "baseline",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.576284646987915,
+    "errors": [],
+    "stl_file": "sphere_baseline_run10.stl",
+    "code_file": "sphere_baseline_run10.py",
+    "timestamp": "2025-04-30T22:41:00.301163"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 21.251648902893066,
+    "errors": [],
+    "stl_file": "sphere_rag_only_run1.stl",
+    "code_file": "sphere_rag_only_run1.py",
+    "timestamp": "2025-04-30T22:41:21.570383"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 15.812267303466797,
+    "errors": [],
+    "stl_file": "sphere_rag_only_run2.stl",
+    "code_file": "sphere_rag_only_run2.py",
+    "timestamp": "2025-04-30T22:41:37.400045"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 19.001235723495483,
+    "errors": [],
+    "stl_file": "sphere_rag_only_run3.stl",
+    "code_file": "sphere_rag_only_run3.py",
+    "timestamp": "2025-04-30T22:41:56.414121"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 15.832687377929688,
+    "errors": [],
+    "stl_file": "sphere_rag_only_run4.stl",
+    "code_file": "sphere_rag_only_run4.py",
+    "timestamp": "2025-04-30T22:42:12.260480"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 23.40775203704834,
+    "errors": [],
+    "stl_file": "sphere_rag_only_run5.stl",
+    "code_file": "sphere_rag_only_run5.py",
+    "timestamp": "2025-04-30T22:42:35.685477"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 41.574767112731934,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpxz6sc2xz.py\", line 19\n    stl_mesh = mesh.Mesh(np.zeros(vectors.shape[0], dtype=mesh.Mesh.dtype)\n                        ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "sphere_rag_only_run6.stl",
+    "code_file": "sphere_rag_only_run6.py",
+    "timestamp": "2025-04-30T22:43:17.281636"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.627381324768066,
+    "errors": [],
+    "stl_file": "sphere_rag_only_run7.stl",
+    "code_file": "sphere_rag_only_run7.py",
+    "timestamp": "2025-04-30T22:43:34.920004"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 22.70313596725464,
+    "errors": [],
+    "stl_file": "sphere_rag_only_run8.stl",
+    "code_file": "sphere_rag_only_run8.py",
+    "timestamp": "2025-04-30T22:43:57.635845"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 17.49751091003418,
+    "errors": [],
+    "stl_file": "sphere_rag_only_run9.stl",
+    "code_file": "sphere_rag_only_run9.py",
+    "timestamp": "2025-04-30T22:44:15.140921"
+  },
+  {
+    "shape": "sphere",
+    "condition": "rag_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 4,
+    "execution_time": 83.70165729522705,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmplqq91rtz.py\", line 21\n    numpy_stl_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                              ^\nSyntaxError: '(' was never closed",
+      "Iteration 2: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpr19grm0c.py\", line 21\n    numpy_stl_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                              ^\nSyntaxError: '(' was never closed",
+      "Iteration 3: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpj80t_nfu.py\", line 22\n    numpy_stl_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                              ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "sphere_rag_only_run10.stl",
+    "code_file": "sphere_rag_only_run10.py",
+    "timestamp": "2025-04-30T22:45:38.850119"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 35.139185667037964,
+    "errors": [],
+    "stl_file": "sphere_review_only_run1.stl",
+    "code_file": "sphere_review_only_run1.py",
+    "timestamp": "2025-04-30T22:46:13.997094"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 33.50602102279663,
+    "errors": [],
+    "stl_file": "sphere_review_only_run2.stl",
+    "code_file": "sphere_review_only_run2.py",
+    "timestamp": "2025-04-30T22:46:47.513229"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 36.34945893287659,
+    "errors": [],
+    "stl_file": "sphere_review_only_run3.stl",
+    "code_file": "sphere_review_only_run3.py",
+    "timestamp": "2025-04-30T22:47:23.873283"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 27.72081685066223,
+    "errors": [],
+    "stl_file": "sphere_review_only_run4.stl",
+    "code_file": "sphere_review_only_run4.py",
+    "timestamp": "2025-04-30T22:47:51.602460"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 5,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 34.60148572921753,
+    "errors": [],
+    "stl_file": "sphere_review_only_run5.stl",
+    "code_file": "sphere_review_only_run5.py",
+    "timestamp": "2025-04-30T22:48:26.217234"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 6,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 31.92925214767456,
+    "errors": [],
+    "stl_file": "sphere_review_only_run6.stl",
+    "code_file": "sphere_review_only_run6.py",
+    "timestamp": "2025-04-30T22:48:58.158705"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 30.113922834396362,
+    "errors": [],
+    "stl_file": "sphere_review_only_run7.stl",
+    "code_file": "sphere_review_only_run7.py",
+    "timestamp": "2025-04-30T22:49:28.282782"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 34.76773738861084,
+    "errors": [],
+    "stl_file": "sphere_review_only_run8.stl",
+    "code_file": "sphere_review_only_run8.py",
+    "timestamp": "2025-04-30T22:50:03.058590"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 31.359931468963623,
+    "errors": [],
+    "stl_file": "sphere_review_only_run9.stl",
+    "code_file": "sphere_review_only_run9.py",
+    "timestamp": "2025-04-30T22:50:34.428655"
+  },
+  {
+    "shape": "sphere",
+    "condition": "review_only",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 30.33884620666504,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpz6u9q2tw.py\", line 27, in <module>\n    create_hollow_sphere()\n    ~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpz6u9q2tw.py\", line 22, in create_hollow_sphere\n    processed.export('output.stl', include_units='mm')\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2831, in export\n    return export_mesh(mesh=self, file_obj=file_obj, file_type=file_type, **kwargs)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exchange\\export.py\", line 85, in export_mesh\n    export = _mesh_exporters[file_type](mesh, **kwargs)\nTypeError: export_stl() got an unexpected keyword argument 'include_units'"
+    ],
+    "stl_file": "sphere_review_only_run10.stl",
+    "code_file": "sphere_review_only_run10.py",
+    "timestamp": "2025-04-30T22:51:04.777144"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 1,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 45.50755953788757,
+    "errors": [],
+    "stl_file": "sphere_full_system_run1.stl",
+    "code_file": "sphere_full_system_run1.py",
+    "timestamp": "2025-04-30T22:51:50.295039"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 2,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 48.62013220787048,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpvwdcmc1j.py:22: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  hollow_sphere.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmpvwdcmc1j.py:23: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  hollow_sphere.remove_duplicate_faces()"
+    ],
+    "stl_file": "sphere_full_system_run2.stl",
+    "code_file": "sphere_full_system_run2.py",
+    "timestamp": "2025-04-30T22:52:38.931003"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 3,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 53.35720419883728,
+    "errors": [],
+    "stl_file": "sphere_full_system_run3.stl",
+    "code_file": "sphere_full_system_run3.py",
+    "timestamp": "2025-04-30T22:53:32.302268"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 4,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 48.35787296295166,
+    "errors": [],
+    "stl_file": "sphere_full_system_run4.stl",
+    "code_file": "sphere_full_system_run4.py",
+    "timestamp": "2025-04-30T22:54:20.669950"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 5,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 68.40953540802002,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpraftf9dc.py\", line 21\n    numpy_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                          ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "sphere_full_system_run5.stl",
+    "code_file": "sphere_full_system_run5.py",
+    "timestamp": "2025-04-30T22:55:29.087613"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 6,
+    "success": true,
+    "iterations": 2,
+    "execution_time": 74.71734642982483,
+    "errors": [
+      "Iteration 1: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpx_yrm76y.py\", line 20\n    numpy_stl_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                              ^\nSyntaxError: '(' was never closed",
+      "Review failed: File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmp20a273dr.py\", line 22\n    stl_mesh = mesh.Mesh(np.zeros(faces.shape[0], dtype=mesh.Mesh.dtype)\n                        ^\nSyntaxError: '(' was never closed"
+    ],
+    "stl_file": "sphere_full_system_run6.stl",
+    "code_file": "sphere_full_system_run6.py",
+    "timestamp": "2025-04-30T22:56:43.814010"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 7,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 50.7811758518219,
+    "errors": [
+      "Review failed: C:\\Users\\pelum\\AppData\\Local\\Temp\\tmprw0we4uz.py:24: DeprecationWarning: `remove_degenerate_faces` is deprecated and will be removed in March 2024 replace with `self.update_faces(self.nondegenerate_faces(height=height))`\n  combined.remove_degenerate_faces()\nC:\\Users\\pelum\\AppData\\Local\\Temp\\tmprw0we4uz.py:25: DeprecationWarning: `remove_duplicate_faces` is deprecated and will be removed in March 2024: replace with `mesh.update_faces(mesh.unique_faces())`\n  combined.remove_duplicate_faces()\nTraceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmprw0we4uz.py\", line 39, in <module>\n    create_printable_hollow_sphere()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmprw0we4uz.py\", line 37, in create_printable_hollow_sphere\n    combined.export('output.stl', file_type='stl_binary')\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2831, in export\n    return export_mesh(mesh=self, file_obj=file_obj, file_type=file_type, **kwargs)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exchange\\export.py\", line 64, in export_mesh\n    raise ValueError(\"%s exporter not available!\", file_type)\nValueError: ('%s exporter not available!', 'stl_binary')"
+    ],
+    "stl_file": "sphere_full_system_run7.stl",
+    "code_file": "sphere_full_system_run7.py",
+    "timestamp": "2025-04-30T22:57:34.605203"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 8,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 47.8736732006073,
+    "errors": [
+      "Review failed: Traceback (most recent call last):\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpjk50ondm.py\", line 40, in <module>\n    model = create_printable_hollow_sphere()\n  File \"C:\\Users\\pelum\\AppData\\Local\\Temp\\tmpjk50ondm.py\", line 31, in create_printable_hollow_sphere\n    hollow_sphere.export('output.stl', file_type='stl_binary')\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\base.py\", line 2831, in export\n    return export_mesh(mesh=self, file_obj=file_obj, file_type=file_type, **kwargs)\n  File \"C:\\Users\\pelum\\PycharmProjects\\PythonProject9\\.venv\\Lib\\site-packages\\trimesh\\exchange\\export.py\", line 64, in export_mesh\n    raise ValueError(\"%s exporter not available!\", file_type)\nValueError: ('%s exporter not available!', 'stl_binary')"
+    ],
+    "stl_file": "sphere_full_system_run8.stl",
+    "code_file": "sphere_full_system_run8.py",
+    "timestamp": "2025-04-30T22:58:22.494054"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 9,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 44.53928542137146,
+    "errors": [],
+    "stl_file": "sphere_full_system_run9.stl",
+    "code_file": "sphere_full_system_run9.py",
+    "timestamp": "2025-04-30T22:59:07.053071"
+  },
+  {
+    "shape": "sphere",
+    "condition": "full_system",
+    "run_number": 10,
+    "success": true,
+    "iterations": 1,
+    "execution_time": 55.17170977592468,
+    "errors": [],
+    "stl_file": "sphere_full_system_run10.stl",
+    "code_file": "sphere_full_system_run10.py",
+    "timestamp": "2025-04-30T23:00:02.233311"
+  }
+]

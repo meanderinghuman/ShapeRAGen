@@ -1,0 +1,10 @@
+EVALUATION SUMMARY
+==================
+
+Overall Success Rate: 95.5%
+RAG Improvement: -7.0%
+Best Condition: review_only
+Best Condition Success Rate: 100.0%
+Average Iterations (Success): 1.36
+Hardest Shape: pyramid
+Easiest Shape: box
