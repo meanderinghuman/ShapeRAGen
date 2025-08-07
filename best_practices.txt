@@ -1,0 +1,492 @@
+{
+  "generalParameters": {
+    "standardNozzleDiameters": [0.2, 0.3, 0.4, 0.5, 0.6, 0.8, 1.0],
+    "defaultNozzleDiameter": 0.4,
+    "minimumFeatureSize": "Generally equal to nozzle diameter (0.4mm standard)",
+    "minimumWallThickness": "2x nozzle diameter (0.8mm for standard 0.4mm nozzle)",
+    "zLayerHeights": {
+      "ultraFine": 0.05,
+      "fine": 0.1,
+      "standard": 0.2,
+      "draft": 0.3,
+      "recommended": "50-75% of nozzle diameter"
+    },
+    "buildVolume": {
+      "small": "120x120x120mm",
+      "medium": "220x220x250mm",
+      "large": "300x300x400mm"
+    },
+    "printSpeeds": {
+      "slow": "20-30mm/s",
+      "standard": "40-60mm/s",
+      "fast": "80-100mm/s"
+    }
+  },
+  "materialProperties": {
+    "PLA": {
+      "printTemperature": "190-220°C",
+      "bedTemperature": "50-60°C",
+      "fanSpeed": "100%",
+      "shrinkage": "0.2-0.5%",
+      "minimumWallMultiplier": 2.0,
+      "maximumOverhangAngle": 45,
+      "warping": "Low",
+      "bedAdhesion": "Good",
+      "bridging": "Good (up to 10mm)",
+      "supportRemoval": "Easy",
+      "postProcessing": "Can be sanded and painted easily",
+      "comments": "Most forgiving material, great for most primitive shapes"
+    },
+    "PETG": {
+      "printTemperature": "230-250°C",
+      "bedTemperature": "70-90°C",
+      "fanSpeed": "30-50%",
+      "shrinkage": "0.4-0.7%",
+      "minimumWallMultiplier": 2.0,
+      "maximumOverhangAngle": 40,
+      "warping": "Medium",
+      "bedAdhesion": "Good",
+      "bridging": "Fair (up to 8mm)",
+      "supportRemoval": "Moderate difficulty",
+      "postProcessing": "Good chemical resistance, more difficult to sand",
+      "comments": "Good balance of strength and printability"
+    },
+    "ABS": {
+      "printTemperature": "230-250°C",
+      "bedTemperature": "100-110°C",
+      "fanSpeed": "0-20%",
+      "shrinkage": "0.8-1.5%",
+      "minimumWallMultiplier": 2.5,
+      "maximumOverhangAngle": 35,
+      "warping": "High",
+      "bedAdhesion": "Poor (enclosure recommended)",
+      "bridging": "Fair (up to 7mm)",
+      "supportRemoval": "Moderate",
+      "postProcessing": "Acetone smoothing possible, good for mechanical parts",
+      "comments": "More challenging, better for functional parts than decorative"
+    },
+    "TPU": {
+      "printTemperature": "220-235°C",
+      "bedTemperature": "40-60°C",
+      "fanSpeed": "30-50%",
+      "shrinkage": "0.1-0.3%",
+      "minimumWallMultiplier": 3.0,
+      "maximumOverhangAngle": 30,
+      "warping": "Low",
+      "bedAdhesion": "Good",
+      "bridging": "Poor (up to 5mm)",
+      "supportRemoval": "Difficult",
+      "postProcessing": "Limited due to flexibility",
+      "comments": "Slow printing speeds (15-30mm/s), minimal retractions"
+    }
+  },
+  "shapes": {
+    "box": {
+      "description": "A six-faced rectangular prism with right angles",
+      "printingOrientation": {
+        "recommended": "Largest face down on build plate",
+        "rationale": "Maximizes stability, minimizes print time, no supports needed",
+        "alternatives": [
+          {
+            "orientation": "On edge (standing)",
+            "use_case": "When layer lines need to run in specific direction for strength",
+            "considerations": "Requires more supports, less stable"
+          }
+        ]
+      },
+      "dimensionalConstraints": {
+        "minimumSize": "2x nozzle diameter for each dimension (0.8mm for 0.4mm nozzle)",
+        "maximumSize": "Limited by printer build volume",
+        "aspectRatio": "Height should ideally not exceed 5x the smallest base dimension for stability"
+      },
+      "designOptimizations": {
+        "corners": {
+          "external": "Add 0.5-1mm chamfers or fillets to external corners to prevent warping and improve strength",
+          "internal": "Add at least 1mm fillets to internal corners to prevent stress concentration"
+        },
+        "wallThickness": {
+          "solid": "Minimum 2 perimeters (0.8mm for 0.4mm nozzle)",
+          "structural": "3-4 perimeters recommended for structural parts (1.2-1.6mm)"
+        },
+        "hollowing": {
+          "minimumWallThickness": "2-3x nozzle diameter (0.8-1.2mm for 0.4mm nozzle)",
+          "drainageHoles": "Add 2-3mm drainage/air holes if fully enclosed",
+          "infill": "10-20% for non-structural, 20-40% for semi-structural, 40%+ for structural"
+        }
+      },
+      "materialSpecificConsiderations": {
+        "PLA": {
+          "corners": "Minimal chamfers needed",
+          "coolingTime": "No specific layer time requirements"
+        },
+        "PETG": {
+          "corners": "0.5mm chamfers recommended",
+          "surfaceQuality": "Reduce print speed by 20% for better surface finish"
+        },
+        "ABS": {
+          "corners": "1mm chamfers/fillets recommended",
+          "warping": "Use brim, enclosure recommended",
+          "firstLayerHeight": "0.3mm recommended for better adhesion"
+        },
+        "TPU": {
+          "walls": "Add 0.5mm to wall thickness for stability",
+          "speed": "Print 50% slower than normal"
+        }
+      },
+      "commonIssues": {
+        "cornerWarping": "Add chamfers, use brim, ensure proper bed leveling and temperature",
+        "poorSurfaceQuality": "Adjust layer height to multiples of 0.04mm, check for printer vibrations",
+        "weakLayerAdhesion": "Increase temperature slightly, reduce cooling, check extrusion multiplier"
+      }
+    },
+    "cylinder": {
+      "description": "A solid with circular bases connected by a curved lateral surface",
+      "printingOrientation": {
+        "recommended": "Standing upright (circular faces as top/bottom)",
+        "rationale": "Best surface quality, no supports needed, maximizes strength in lateral direction",
+        "alternatives": [
+          {
+            "orientation": "Horizontal (on side)",
+            "use_case": "When height exceeds build volume or for maximum strength in axial direction",
+            "considerations": "Requires supports, visible layer lines on curved surface"
+          }
+        ]
+      },
+      "dimensionalConstraints": {
+        "minimumDiameter": "3mm for reliable printing with 0.4mm nozzle",
+        "heightToBaseRatio": "Should not exceed 5:1 for stability during printing",
+        "thinWalls": "For hollow cylinders, minimum wall thickness of 2-3 perimeters (0.8-1.2mm)"
+      },
+      "designOptimizations": {
+        "baseEdge": {
+          "external": "Add 0.5-1mm chamfer to bottom edge to prevent elephant's foot",
+          "firstLayer": "Consider 0.3mm first layer height and 110% extrusion width for better adhesion"
+        },
+        "topSurface": {
+          "flatness": "Use at least 4-5 top layers for a smooth top surface",
+          "infill": "For non-structural parts, 10-20% infill is sufficient"
+        },
+        "hollowing": {
+          "wallThickness": "Minimum 0.8mm (2 perimeters) for non-structural, 1.2mm (3 perimeters) for structural",
+          "drainageHoles": {
+            "recommended": "Add 2-3mm drainage holes at the bottom if enclosed",
+            "rationale": "Prevents pressure buildup and improves inner surface quality"
+          }
+        }
+      },
+      "materialSpecificConsiderations": {
+        "PLA": {
+          "cooling": "Full cooling after first layer for good overhangs",
+          "printSpeed": "Can be printed at standard speeds (40-60mm/s)"
+        },
+        "PETG": {
+          "stringing": "Increase retraction by 1mm, reduce print temperature by 5°C",
+          "cooling": "50% fan speed to balance strength and appearance"
+        },
+        "ABS": {
+          "warping": "Add brim, use enclosure if possible",
+          "cooling": "Minimal cooling (0-20%) for best layer adhesion"
+        },
+        "TPU": {
+          "retraction": "Minimize retractions to prevent jamming",
+          "speed": "Print at 20-30mm/s for best results"
+        }
+      },
+      "commonIssues": {
+        "topLayerSagging": "Ensure sufficient top layers (5+) and proper cooling",
+        "elephantsFoot": "Add chamfer to bottom edge, adjust first layer squish",
+        "poorVerticalAlignment": "Check printer frame rigidity, reduce speed for tall cylinders"
+      }
+    },
+    "sphere": {
+      "description": "A perfectly round geometrical object where all points are equidistant from center",
+      "printingStrategies": [
+        {
+          "name": "modified_base",
+          "description": "Printing as a single piece with flat bottom",
+          "applicableDiameterRange": "Up to 60mm diameter",
+          "advantages": ["Simpler to print", "Single part", "No assembly required"],
+          "disadvantages": ["Visible flat spot", "Requires supports for upper hemisphere", "Surface quality issues at top"]
+        },
+        {
+          "name": "hemispheres",
+          "description": "Split into top and bottom hemispheres with connection features",
+          "applicableDiameterRange": "Greater than 60mm diameter",
+          "advantages": ["No supports needed", "Better surface quality", "More economical printing"],
+          "disadvantages": ["Assembly required", "Visible seam", "Additional design complexity"]
+        }
+      ],
+      "printingOrientation": {
+        "recommended": "Flat spot or hemisphere's flat surface on build plate",
+        "rationale": "Minimizes support material, maximizes surface quality"
+      },
+      "dimensionalConstraints": {
+        "minimumDiameter": "10mm with 0.4mm nozzle for recognizable sphericity",
+        "supportConsiderations": "Supports needed for overhangs beyond 45° (PLA), 40° (PETG), or 35° (ABS)"
+      },
+      "designOptimizations": {
+        "modifiedBase": {
+          "flatSpot": "Create a flat area 5-10% of sphere height for stability",
+          "layerHeight": "Use 0.12-0.16mm layers for smoother curves",
+          "perimeters": "4+ perimeters for smooth surface (1.6mm+ wall thickness)"
+        },
+        "hemispheres": {
+          "connectionMethod": {
+            "basic": "Simple flat faces with 2-3mm alignment pins",
+            "advanced": "Interlocking features with slight interference fit (0.1-0.2mm)"
+          },
+          "seamPlacement": "Place seam at equator for most natural appearance",
+          "wallThickness": "3-4 perimeters minimum (1.2-1.6mm)"
+        },
+        "hollowing": {
+          "wallThickness": "10-15% of radius, minimum 1.2mm (3 perimeters)",
+          "drainageHoles": "2-3mm holes needed if hollow, place at bottom of sphere or at equator for hemispheres"
+        }
+      },
+      "materialSpecificConsiderations": {
+        "PLA": {
+          "supports": "Tree supports with 45° overhang threshold",
+          "cooling": "100% fan after first few layers",
+          "surfaceQuality": "Post-processing with fine sandpaper (600+ grit) possible"
+        },
+        "PETG": {
+          "supports": "Normal supports with 40° overhang threshold",
+          "cooling": "50% fan for overhangs, 30% otherwise",
+          "z-seam": "Align seam to minimize visibility"
+        },
+        "ABS": {
+          "printing": "Enclosure strongly recommended",
+          "supports": "35° overhang threshold with denser supports",
+          "postProcessing": "Acetone vapor smoothing effective for perfect sphericity"
+        },
+        "TPU": {
+          "feasibility": "Challenging with standard TPU, use 95A+ hardness",
+          "supports": "Avoid if possible by using hemispheres approach",
+          "wallThickness": "Increase by 25% compared to rigid materials"
+        }
+      },
+      "commonIssues": {
+        "supportMarks": "Use support interface layers, calibrate support distance",
+        "layerLines": "Use adaptive layer heights for smoother transitions",
+        "topPointQuality": "Ensure cooling is adequate, consider custom supports"
+      }
+    },
+    "cone": {
+      "description": "A three-dimensional geometric shape with a circular base that tapers to a point",
+      "printingOrientation": {
+        "recommended": "Base down on build plate",
+        "rationale": "Maximum stability, no supports needed, best surface quality"
+      },
+      "dimensionalConstraints": {
+        "minimumBaseDiameter": "10mm for standard 0.4mm nozzle",
+        "apex": "Minimum 0.8mm diameter at tip for printability",
+        "angleConstraints": "Angles less than 45° from vertical are self-supporting"
+      },
+      "designOptimizations": {
+        "apex": {
+          "blunting": "Consider slightly blunting tip (0.5-1mm flat) for better printability",
+          "reinforcement": "For functional cones, reinforce tip with slightly higher density"
+        },
+        "baseEdge": {
+          "chamfer": "Add 0.5-1mm chamfer to base edge to prevent elephant's foot",
+          "brim": "Use 3-5mm brim for better adhesion, especially for tall cones"
+        },
+        "hollowing": {
+          "wallThickness": "Minimum 0.8-1.2mm (2-3 perimeters) depending on size",
+          "innerTaper": "Maintain consistent wall thickness from base to apex",
+          "drainageHoles": "Include 2-3mm drain hole at base if fully enclosed"
+        }
+      },
+      "materialSpecificConsiderations": {
+        "PLA": {
+          "cooling": "100% after first few layers",
+          "printSpeed": "Reduce to 70% near apex for better quality"
+        },
+        "PETG": {
+          "stringing": "May require increased retraction and lower temperature",
+          "cooling": "50% fan, increase near apex"
+        },
+        "ABS": {
+          "warping": "Use brim and heated chamber if possible",
+          "cooling": "Minimal cooling except near apex"
+        },
+        "TPU": {
+          "feasibility": "Challenging for very steep cones",
+          "speed": "Print very slowly (15-20mm/s) for good apex formation"
+        }
+      },
+      "slicerSettings": {
+        "layerHeight": "0.16-0.2mm standard, consider adaptive layers",
+        "printSpeed": "Decrease speed by 30-50% for upper portions",
+        "minimumLayerTime": "Set to 10-15 seconds for small cones"
+      },
+      "commonIssues": {
+        "tipDeformation": "Increase minimum layer time, use cooling tower for small cones",
+        "layerShifting": "Reduce speed for tall cones, check belt tension",
+        "poorSurfaceQuality": "Enable adaptive layers, adjust cooling for upper portions"
+      }
+    },
+    "pyramid": {
+      "description": "A polyhedron with a polygonal base and triangular faces that converge to a point",
+      "printingOrientation": {
+        "recommended": "Base down on build plate",
+        "rationale": "Maximum stability, no supports needed, best surface finish"
+      },
+      "dimensionalConstraints": {
+        "minimumBaseDimension": "10mm for standard 0.4mm nozzle",
+        "apex": "Minimum 0.8mm diameter at tip for printability",
+        "faceAngle": "Angles greater than 45° from horizontal may require supports"
+      },
+      "designOptimizations": {
+        "apex": {
+          "blunting": "Consider slightly blunting tip (0.5-1mm flat) for better printability",
+          "printOrder": "Design with apex directly above center of base for better top point"
+        },
+        "baseEdge": {
+          "chamfer": "Add 0.5-1mm chamfer to base edges to prevent elephant's foot and improve adhesion",
+          "brim": "Use 5mm brim for larger pyramids to prevent warping"
+        },
+        "faces": {
+          "surfaceQuality": "Orient model so layer lines enhance rather than detract from appearance",
+          "minimumAngle": "Keep face angles above 20° from horizontal for good quality"
+        },
+        "hollowing": {
+          "wallThickness": "Minimum 1.2mm (3 perimeters) for structural integrity",
+          "innerTaper": "Maintain consistent wall thickness from base to apex",
+          "drainageHoles": "Include 2-3mm drain hole at base if fully enclosed"
+        }
+      },
+      "materialSpecificConsiderations": {
+        "PLA": {
+          "bridging": "Good performance on internal ceiling areas",
+          "cooling": "100% after first few layers"
+        },
+        "PETG": {
+          "edgeSharpness": "May require post-processing for sharp edges",
+          "cooling": "50-70% for balanced quality"
+        },
+        "ABS": {
+          "warping": "High risk for sharp corners - use brim and enclosure",
+          "cooling": "20-30% to prevent layer separation"
+        },
+        "TPU": {
+          "feasibility": "Challenging for very steep pyramids",
+          "edgeDefinition": "Will be rounded naturally due to material properties"
+        }
+      },
+      "slicerSettings": {
+        "perimeters": "Minimum 3 for good point formation",
+        "infill": "15-20% for decorative, 30%+ for functional",
+        "printSpeed": "Decrease by 30% for upper portions"
+      },
+      "commonIssues": {
+        "cornerWarping": "Use brim, ensure proper first layer adhesion",
+        "tipDeformation": "Increase minimum layer time, enable cooling tower",
+        "layerSeams": "Align seam to one edge or corner for better appearance"
+      }
+    }
+  },
+  "commonPrintingIssues": {
+    "elephantsFoot": {
+      "description": "Bulging at the bottom layers of the print",
+      "causes": ["Bed too close to nozzle", "First layer overextrusion", "Bed/nozzle temperature too high"],
+      "solutions": [
+        "Add 0.5-1mm chamfer to bottom edges",
+        "Calibrate first layer height",
+        "Enable elephant's foot compensation (0.1-0.2mm)",
+        "Reduce bed temperature after first few layers"
+      ]
+    },
+    "stringing": {
+      "description": "Thin strands of plastic between parts",
+      "causes": ["Insufficient retraction", "Temperature too high", "Travel speed too low"],
+      "solutions": [
+        "Increase retraction distance (5-8mm for Bowden, 1-3mm for direct drive)",
+        "Lower nozzle temperature by 5-10°C",
+        "Enable combing mode (travel within perimeters)",
+        "Enable 'wipe nozzle' feature"
+      ]
+    },
+    "zSeamAlignment": {
+      "description": "Visible seam where each layer starts/ends",
+      "causes": ["Inherent to FDM process", "Poor seam alignment settings"],
+      "solutions": [
+        "Set Z-seam alignment to 'sharpest corner' for boxes and pyramids",
+        "Use 'user specified' for cylinders and cones (hide in back)",
+        "Enable coasting (0.2-0.4mm³)",
+        "Tune pressure advance/linear advance if available"
+      ]
+    },
+    "warping": {
+      "description": "Curling or detachment of parts from the build plate",
+      "causes": ["Material shrinkage", "Poor bed adhesion", "Temperature differential"],
+      "solutions": [
+        "Use brim (5-10mm wide)",
+        "Increase bed temperature for first layers",
+        "Reduce cooling fan for first 5-10 layers",
+        "Use enclosure for ABS/ASA",
+        "Apply design features like chamfered bottom edges"
+      ]
+    },
+    "poorTopSurface": {
+      "description": "Gaps or irregularities in top surfaces",
+      "causes": ["Insufficient top layers", "Underextrusion", "Cooling issues"],
+      "solutions": [
+        "Increase top layers (4-6 recommended)",
+        "Increase infill density (25%+ for good top surfaces)",
+        "Enable ironing feature for glossy top surfaces",
+        "Calibrate extrusion multiplier"
+      ]
+    },
+    "poorBridging": {
+      "description": "Sagging or inconsistent material spanning gaps",
+      "causes": ["Insufficient cooling", "Speed too high/low", "Temperature issues"],
+      "solutions": [
+        "Enable bridge settings in slicer",
+        "Set bridge speed to 20-30mm/s",
+        "Enable maximum cooling for bridges",
+        "Lower temperature by 5-10°C for bridges"
+      ]
+    },
+    "dimensionalAccuracy": {
+      "description": "Printed parts not matching designed dimensions",
+      "causes": ["Printer calibration", "Material shrinkage", "First layer settings"],
+      "solutions": [
+        "Calibrate extrusion multiplier (flow rate)",
+        "Compensate for material shrinkage in design (0.1-0.2mm for PLA, 0.3-0.5mm for ABS)",
+        "Ensure printer steps/mm are accurate",
+        "Account for nozzle diameter in fine details (inner dimensions -0.1mm, outer +0.1mm)"
+      ]
+    }
+  },
+  "postProcessingTechniques": {
+    "support_removal": {
+      "tools": ["Needle-nose pliers", "Flush cutters", "Craft knife"],
+      "techniques": [
+        "Remove while still warm for easier separation",
+        "Use flush cutters for accessing tight spots",
+        "Soak PVA supports in water if used"
+      ]
+    },
+    "surface_smoothing": {
+      "sanding": {
+        "materials": ["PLA, PETG, ABS"],
+        "process": "Start with 120 grit, progress to 220, 400, 600+ grits",
+        "tips": "Wet sanding reduces dust and improves finish"
+      },
+      "chemical": {
+        "ABS": "Acetone vapor smoothing (5-10 minute exposure)",
+        "PLA": "Limited chemical options, XTC-3D epoxy coating",
+        "PETG": "Ethyl acetate (limited effectiveness)"
+      }
+    },
+    "painting": {
+      "preparation": "Sand with 400+ grit, apply primer (filler primer for visible layers)",
+      "techniques": [
+        "Spray painting gives most even results",
+        "Acrylic paints work well on most materials",
+        "Apply clear coat for durability"
+      ]
+    }
+  }
+}
