@@ -2,6 +2,9 @@
 
 *Text-to-STL synthesis with Retrieval‑Augmented Generation (RAG)*
 
+ShapeRAGen empowers you to transform plain-English shape descriptions into production‑ready, 3D‑printable STL models. 🚀Powered by DeepSeek‑V3 and Retrieval‑Augmented Generation (RAG), it handles hollow geometries with precision, automated printability checks, and dimensional validation.
+
+
 ---
 
 ## 🎯 Quick Start
