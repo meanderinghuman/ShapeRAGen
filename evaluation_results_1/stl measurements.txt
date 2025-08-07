@@ -1,0 +1,1333 @@
+STL Analysis Report
+==================================================
+
+Number of files analyzed: 188
+Number of watertight models: 177 (94.1%)
+
+Dimension Match Statistics:
+  Excellent: 172 (91.5%)
+  Good: 0 (0.0%)
+  Fair: 1 (0.5%)
+  Poor: 15 (8.0%)
+
+Average dimension difference: 3.56%
+
+Individual File Summaries:
+--------------------------------------------------
+
+File: box_baseline_run1.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_baseline_run10.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_baseline_run2.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_baseline_run3.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_baseline_run4.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_baseline_run5.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_baseline_run6.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_baseline_run7.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_baseline_run8.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_baseline_run9.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_full_system_run1.stl
+  Dimensions (mm): 0.0 x 0.0 x 0.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 99.9%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_full_system_run10.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_full_system_run2.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_full_system_run3.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_full_system_run4.stl
+  Dimensions (mm): 0.0 x 0.0 x 0.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 99.9%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_full_system_run5.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_full_system_run6.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_full_system_run7.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_full_system_run8.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_full_system_run9.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_rag_only_run1.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_rag_only_run10.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_rag_only_run2.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_rag_only_run3.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_rag_only_run4.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_rag_only_run5.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_rag_only_run6.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_rag_only_run7.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_rag_only_run8.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_rag_only_run9.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_review_only_run1.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_review_only_run10.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_review_only_run2.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_review_only_run3.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_review_only_run4.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_review_only_run5.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_review_only_run6.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_review_only_run7.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: box_review_only_run8.stl
+  Dimensions (mm): 20.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 27.8%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: box_review_only_run9.stl
+  Dimensions (mm): 30.0 x 20.0 x 40.0
+  Expected (mm): 30.0 x 20.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run1.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run10.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run2.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run3.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run4.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run5.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run6.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run7.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run8.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_baseline_run9.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run1.stl
+  Dimensions (mm): 40.0 x 40.0 x 37.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 1.9%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run10.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run2.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run3.stl
+  Dimensions (mm): 40.0 x 40.0 x 36.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 1.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run4.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run5.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run6.stl
+  Dimensions (mm): 40.0 x 40.0 x 34.1
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.9%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run7.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run8.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_full_system_run9.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_rag_only_run1.stl
+  Dimensions (mm): 40.0 x 40.0 x 36.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 1.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: cone_rag_only_run10.stl
+  Dimensions (mm): 40.0 x 40.0 x 38.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 2.9%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_rag_only_run2.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_rag_only_run3.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_rag_only_run4.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_rag_only_run5.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.5
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.5%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_rag_only_run6.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_rag_only_run7.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_rag_only_run8.stl
+  Dimensions (mm): 40.0 x 40.0 x 36.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 1.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_rag_only_run9.stl
+  Dimensions (mm): 40.0 x 40.0 x 37.5
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 2.4%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run1.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run10.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run2.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run3.stl
+  Dimensions (mm): 40.0 x 40.0 x 36.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 1.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run4.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run5.stl
+  Dimensions (mm): 40.0 x 40.0 x 37.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 1.9%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run6.stl
+  Dimensions (mm): 40.0 x 40.0 x 36.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 1.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run7.stl
+  Dimensions (mm): 40.0 x 40.0 x 35.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run8.stl
+  Dimensions (mm): 40.0 x 40.0 x 36.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 1.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cone_review_only_run9.stl
+  Dimensions (mm): 40.0 x 40.0 x 36.0
+  Expected (mm): 40.0 x 40.0 x 35.0
+  Avg Difference: 1.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run1.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run10.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run2.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run3.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run4.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run5.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run6.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run7.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run8.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_baseline_run9.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run1.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run10.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run2.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run3.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run4.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run5.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run6.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run7.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run8.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_full_system_run9.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run1.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run10.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run2.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run3.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run4.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run5.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run6.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run7.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run8.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_rag_only_run9.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_review_only_run1.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_review_only_run10.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_review_only_run2.stl
+  Dimensions (mm): 30.0 x 40.0 x 30.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 19.4%
+  Match Rating: Fair
+  Watertight: Yes
+
+File: cylinder_review_only_run3.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_review_only_run4.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_review_only_run5.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_review_only_run6.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_review_only_run7.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_review_only_run8.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: cylinder_review_only_run9.stl
+  Dimensions (mm): 30.0 x 30.0 x 40.0
+  Expected (mm): 30.0 x 30.0 x 40.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_baseline_run1.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_baseline_run10.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_baseline_run2.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_baseline_run3.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_baseline_run4.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_baseline_run5.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_baseline_run6.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_baseline_run7.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_baseline_run8.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_baseline_run9.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_full_system_run2.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_full_system_run3.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_full_system_run7.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_full_system_run8.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_rag_only_run1.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_rag_only_run10.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_rag_only_run3.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_rag_only_run6.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_review_only_run1.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_review_only_run10.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_review_only_run2.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_review_only_run3.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_review_only_run4.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_review_only_run5.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: pyramid_review_only_run6.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_review_only_run7.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_review_only_run8.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: No
+
+File: pyramid_review_only_run9.stl
+  Dimensions (mm): 25.0 x 25.0 x 30.0
+  Expected (mm): 25.0 x 25.0 x 30.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run1.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run10.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run2.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run3.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run4.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run5.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run6.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run7.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run8.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_baseline_run9.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run1.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run10.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run2.stl
+  Dimensions (mm): 90.0 x 90.0 x 91.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.4%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run3.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run4.stl
+  Dimensions (mm): 90.0 x 90.0 x 89.9
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.1%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run5.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run6.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run7.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run8.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_full_system_run9.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run1.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run10.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run2.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run3.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run4.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run5.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run6.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run7.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run8.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_rag_only_run9.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_review_only_run1.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_review_only_run10.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_review_only_run2.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_review_only_run3.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_review_only_run4.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_review_only_run5.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_review_only_run6.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_review_only_run7.stl
+  Dimensions (mm): 0.1 x 0.1 x 0.1
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 99.9%
+  Match Rating: Poor
+  Watertight: Yes
+
+File: sphere_review_only_run8.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+
+File: sphere_review_only_run9.stl
+  Dimensions (mm): 90.0 x 90.0 x 90.0
+  Expected (mm): 90.0 x 90.0 x 90.0
+  Avg Difference: 0.0%
+  Match Rating: Excellent
+  Watertight: Yes
+

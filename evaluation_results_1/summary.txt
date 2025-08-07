@@ -1,0 +1,12 @@
+EVALUATION SUMMARY
+==================
+
+Overall Success Rate: 94.0%
+RAG Improvement: -12.0%
+Best Condition: baseline
+Best Condition Success Rate: 100.0%
+Average Iterations (Success): 1.41
+Hardest Shape: pyramid
+Easiest Shape: box
+Average Execution Time: 53.68 seconds
+Time Difference (RAG vs No RAG): 29.32 seconds (75.1%)

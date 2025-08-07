@@ -1,0 +1,50 @@
+
+SIMPLE EVALUATION REPORT
+========================
+
+OVERALL RESULTS
+--------------
+Total tests conducted: 200
+Overall success rate: 94.0%
+
+BEST PERFORMING CONDITION
+------------------------
+baseline with 100.0% success rate
+
+RAG EFFECTIVENESS
+----------------
+Success rate WITH RAG: 88.0%
+Success rate WITHOUT RAG: 100.0%
+Improvement: -12.0 percentage points
+
+This means RAG increases success by -12.0%!
+
+EXECUTION TIME
+-------------
+Average time WITH RAG: 68.3 seconds
+Average time WITHOUT RAG: 39.0 seconds
+Difference: 29.3 seconds (75.1% increase)
+
+ITERATIONS TO SUCCESS
+-------------------
+Average iterations overall: 1.4
+Average iterations WITH RAG: 1.6
+Average iterations WITHOUT RAG: 1.3
+Difference: 0.3 iterations
+
+SHAPE ANALYSIS
+-------------
+Hardest shape to generate: pyramid
+Easiest shape to generate: box
+
+STATISTICAL SIGNIFICANCE
+-----------------------
+Is the RAG improvement statistically significant?
+NO (p-value: nan)
+
+Effect size (Cohen's d): -0.52 (large)
+This is a measure of how meaningful the difference is in practical terms.
+
+CONCLUSION
+----------
+RAG does not appear to improve code generation success in this test.
